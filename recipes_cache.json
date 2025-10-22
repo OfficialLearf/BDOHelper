@@ -1,0 +1,1470 @@
+[
+    {
+        "name": "Aloe Cookie",
+        "ingredients": {
+            "Aloe": 5,
+            "Dough": 7,
+            "Honey": 3,
+            "Sugar": 4
+        }
+    },
+    {
+        "name": "Aloe Yogurt",
+        "ingredients": {
+            "Aloe": 5,
+            "Milk": 2,
+            "Sugar": 3,
+            "Leavening Agent": 3
+        }
+    },
+    {
+        "name": "Assorted Side Dishes",
+        "ingredients": {
+            "Fried Bird": 1,
+            "Seafood": 2,
+            "Cheese": 3,
+            "Fruit": 5
+        }
+    },
+    {
+        "name": "Balacs Lunchbox",
+        "ingredients": {
+            "Eilton Sandwich": 2,
+            "Citron Juice": 2,
+            "Citron Candy": 2
+        }
+    },
+    {
+        "name": "Balenos Meal",
+        "ingredients": {
+            "Cheese Gratin": 1,
+            "Meat Croquette": 1,
+            "Smoked Fish Steak": 1,
+            "Stir-Fried Vegetables": 2,
+            "Beer": 2
+        }
+    },
+    {
+        "name": "Beer",
+        "ingredients": {
+            "Starch": 5,
+            "Mineral Water": 6,
+            "Sugar": 1,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Boiled Bird Eggs",
+        "ingredients": {
+            "Egg": 3,
+            "Mineral Water": 6,
+            "Cooking Wine": 1,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Borscht",
+        "ingredients": {
+            "Fragrant Jerky": 7,
+            "Milk": 3,
+            "Cinnamon": 1,
+            "Mineral Water": 2
+        }
+    },
+    {
+        "name": "Buckwheat Jelly",
+        "ingredients": {
+            "Buckwheat": 5,
+            "Salt": 1,
+            "Mineral Water": 1,
+            "Soy Sauce": 1
+        }
+    },
+    {
+        "name": "Butter-Roasted Lobster",
+        "ingredients": {
+            "Lobster": 1,
+            "Butter": 4,
+            "Salt": 5,
+            "Olive Oil": 5,
+            "Garlic": 3
+        }
+    },
+    {
+        "name": "Byeot County Gukbap",
+        "ingredients": {
+            "Napa Cabbage": 2,
+            "Cooked Rice": 1,
+            "Mineral Water": 1,
+            "Radish": 2,
+            "Pork": 2
+        }
+    },
+    {
+        "name": "Calpheon Meal",
+        "ingredients": {
+            "Soft Bread": 2,
+            "Milk Tea": 1,
+            "Fish Fillet Salad": 1,
+            "Cheese Pie": 1,
+            "Meat Pasta": 1
+        }
+    },
+    {
+        "name": "Carrot Confit",
+        "ingredients": {
+            "Special Carrot": 2,
+            "Mineral Water": 6,
+            "Lump of Raw Sugar": 3,
+            "Salt": 2,
+            "Cinnamon": 4
+        }
+    },
+    {
+        "name": "Chanterelle and Potato Stew",
+        "ingredients": {
+            "Chanterelle": 2,
+            "Potato": 5,
+            "Onion": 1,
+            "Cabbage": 2,
+            "Mineral Water": 5
+        }
+    },
+    {
+        "name": "Chanterelle Porridge",
+        "ingredients": {
+            "Chanterelle": 2,
+            "Wheat": 5,
+            "Onion": 1,
+            "Salt": 2,
+            "Mineral Water": 3
+        }
+    },
+    {
+        "name": "Chanterelle Risotto",
+        "ingredients": {
+            "Chanterelle": 2,
+            "Wheat": 5,
+            "White Sauce": 1,
+            "Butter": 1,
+            "Olive Oil": 1
+        }
+    },
+    {
+        "name": "Chanterelle Stew",
+        "ingredients": {
+            "Chanterelle": 3,
+            "Hot Pepper": 1,
+            "Red Sauce": 1,
+            "Mineral Water": 2
+        }
+    },
+    {
+        "name": "Cheese Gratin",
+        "ingredients": {
+            "Grilled Sausage": 1,
+            "Dough": 5,
+            "Vegetable": 4,
+            "Cheese": 3,
+            "Red Sauce": 3
+        }
+    },
+    {
+        "name": "Cheese Pie",
+        "ingredients": {
+            "Dough": 4,
+            "Cheese": 7,
+            "Butter": 3,
+            "Egg": 3
+        }
+    },
+    {
+        "name": "Chicken Breast Salad",
+        "ingredients": {
+            "Chicken Meat": 5,
+            "Fruit": 5,
+            "Vegetable": 5,
+            "Vinegar": 1,
+            "Cooking Wine": 2
+        }
+    },
+    {
+        "name": "Chowder",
+        "ingredients": {
+            "Dried Pearl Oyster Flesh": 1,
+            "Pepper": 2,
+            "Meat": 2,
+            "Milk": 1,
+            "Teff Bread": 1
+        }
+    },
+    {
+        "name": "Citron Candy",
+        "ingredients": {
+            "Citron": 1,
+            "Cooking Honey": 1,
+            "Raw Sugar": 1
+        }
+    },
+    {
+        "name": "Citron Cider",
+        "ingredients": {
+            "Citron": 5,
+            "Essence of Liquor": 3,
+            "Sugar": 1,
+            "Leavening Agent": 3
+        }
+    },
+    {
+        "name": "Citron Juice",
+        "ingredients": {
+            "Citron": 5,
+            "Sugar": 3,
+            "Mineral Water": 5,
+            "Cooking Honey": 1
+        }
+    },
+    {
+        "name": "Citron Vinegar",
+        "ingredients": {
+            "Citron": 2,
+            "Leavening Agent": 1,
+            "Sugar": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Coconut Cocktail",
+        "ingredients": {
+            "Coconut": 2,
+            "Exotic Herbal Wine": 1,
+            "Essence of Liquor": 2,
+            "Fruit": 1,
+            "Mineral Water": 5
+        }
+    },
+    {
+        "name": "Coconut Fried Fish",
+        "ingredients": {
+            "Coconut": 3,
+            "Fish": 1,
+            "Egg": 2,
+            "Dough": 3,
+            "Deep Frying Oil": 4
+        }
+    },
+    {
+        "name": "Coconut Pasta",
+        "ingredients": {
+            "Coconut": 2,
+            "Onion": 2,
+            "Garlic": 4,
+            "Dough": 5,
+            "White Sauce": 1
+        }
+    },
+    {
+        "name": "Cooked Rice",
+        "ingredients": {
+            "Rice": 5,
+            "Spring Water": 2
+        }
+    },
+    {
+        "name": "Couscous",
+        "ingredients": {
+            "Freekeh Snake Stew": 1,
+            "Teff Flour Dough": 6,
+            "Nutmeg": 3,
+            "Vegetable": 4
+        }
+    },
+    {
+        "name": "Dalbeol Gukbap",
+        "ingredients": {
+            "Goosefoot Leaf": 2,
+            "Cooked Rice": 1,
+            "Mineral Water": 1,
+            "Bracken": 2,
+            "Red Pepper Powder": 3
+        }
+    },
+    {
+        "name": "Dark Pudding",
+        "ingredients": {
+            "Oatmeal": 1,
+            "Pickled Vegetables": 1,
+            "Bird Meat": 5,
+            "Blood 2": 7
+        }
+    },
+    {
+        "name": "Date Palm Wine",
+        "ingredients": {
+            "Date Palm": 5,
+            "Essence of Liquor": 2,
+            "Sugar": 1,
+            "Leavening Agent": 4
+        }
+    },
+    {
+        "name": "Delotia Juice",
+        "ingredients": {
+            "Delotia": 4,
+            "Fruit": 5,
+            "Sugar": 3,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Delotia Milk Tea",
+        "ingredients": {
+            "Delotia": 4,
+            "Milk": 3,
+            "Cooking Honey": 3,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Delotia Pudding",
+        "ingredients": {
+            "Delotia": 5,
+            "Wolf Blood": 7,
+            "Honey Wine": 2,
+            "Oatmeal": 1,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Delotia Tart",
+        "ingredients": {
+            "Delotia": 3,
+            "Milk": 2,
+            "Flour": 5,
+            "Egg": 1,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Desert Dumpling",
+        "ingredients": {
+            "Reptile Meat": 6,
+            "Dough": 6,
+            "Cinnamon": 1,
+            "Olive Oil": 2
+        }
+    },
+    {
+        "name": "Dongchimi",
+        "ingredients": {
+            "Radish": 5,
+            "Garlic": 2,
+            "Salt": 1,
+            "Mineral Water": 5
+        }
+    },
+    {
+        "name": "Dressing",
+        "ingredients": {
+            "Egg": 1,
+            "Mineral Water": 1,
+            "Olive Oil": 1,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Eilton Meal",
+        "ingredients": {
+            "Chanterelle Risotto": 1,
+            "Chanterelle and Potato Stew": 1,
+            "Stir-Fried Chanterelle and Meat": 1,
+            "Fruit Sherbet": 2,
+            "Mesima Rice Wine": 2
+        }
+    },
+    {
+        "name": "Eilton Sandwich",
+        "ingredients": {
+            "Citron": 2,
+            "Soft Bread": 2,
+            "Egg": 4,
+            "Cabbage": 5
+        }
+    },
+    {
+        "name": "Energizing Cron Meal",
+        "ingredients": {
+            "Special Drieghanese Meal": 1,
+            "Serendia Meal": 3,
+            "Mediah Meal": 3,
+            "Ancient Cron Spice": 1
+        }
+    },
+    {
+        "name": "Essence of Liquor",
+        "ingredients": {
+            "Flour": 1,
+            "Fruit": 1,
+            "Leavening Agent": 1
+        }
+    },
+    {
+        "name": "Exotic Herbal Wine",
+        "ingredients": {
+            "Dough": 3,
+            "Essence of Liquor": 1,
+            "Mineral Water": 5,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Exquisite Cron Meal",
+        "ingredients": {
+            "Serendia Meal": 3,
+            "Special Arehaza Meal": 1,
+            "Kamasylvia Meal": 3,
+            "Ancient Cron Spice": 1
+        }
+    },
+    {
+        "name": "Fig Pie",
+        "ingredients": {
+            "Fig": 5,
+            "Dough": 3,
+            "Sugar": 3,
+            "Olive Oil": 2
+        }
+    },
+    {
+        "name": "Fish Fillet Chips",
+        "ingredients": {
+            "Fish": 2,
+            "White Sauce": 3,
+            "Flour": 7,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Fish Fillet Salad",
+        "ingredients": {
+            "Fish": 2,
+            "Dressing": 2,
+            "Onion": 3,
+            "Cheese": 2
+        }
+    },
+    {
+        "name": "Fish Soup",
+        "ingredients": {
+            "Fish": 1,
+            "Flour": 3,
+            "Cream": 2,
+            "Mineral Water": 6
+        }
+    },
+    {
+        "name": "Five-Grain Chicken Porridge",
+        "ingredients": {
+            "Ground Bird Meat": 2,
+            "Mineral Water": 2,
+            "Starch": 3
+        }
+    },
+    {
+        "name": "Frank Sandwich",
+        "ingredients": {
+            "Grilled Sausage": 2,
+            "Soft Bread": 1,
+            "Vegetable": 2,
+            "Red Sauce": 1
+        }
+    },
+    {
+        "name": "Freekeh Snake Stew",
+        "ingredients": {
+            "Snake Meat": 3,
+            "Freekeh": 6,
+            "Star Anise": 2,
+            "Mineral Water": 5
+        }
+    },
+    {
+        "name": "Fried Bird",
+        "ingredients": {
+            "Bird Meat": 7,
+            "Flour": 4,
+            "Egg": 2,
+            "Pepper": 3
+        }
+    },
+    {
+        "name": "Fried Fish",
+        "ingredients": {
+            "Fish": 1,
+            "Flour": 3,
+            "Deep Frying Oil": 2
+        }
+    },
+    {
+        "name": "Fried Vegetables",
+        "ingredients": {
+            "Vegetable": 4,
+            "Dough": 3,
+            "Egg": 2,
+            "Deep Frying Oil": 6
+        }
+    },
+    {
+        "name": "Fruit and Vegetable Salad",
+        "ingredients": {
+            "Fruit": 4,
+            "Vegetable": 4,
+            "Vinegar": 1,
+            "Cooking Wine": 2
+        }
+    },
+    {
+        "name": "Fruit Juice",
+        "ingredients": {
+            "Fruit": 4,
+            "Sugar": 3,
+            "Mineral Water": 5,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Fruit Pie",
+        "ingredients": {
+            "Fruit": 6,
+            "Dough": 6,
+            "Cream": 3,
+            "Sugar": 4
+        }
+    },
+    {
+        "name": "Fruit Pudding",
+        "ingredients": {
+            "Fruit": 5,
+            "Cream": 1,
+            "Milk": 3,
+            "Sugar": 2
+        }
+    },
+    {
+        "name": "Fruit Sherbet",
+        "ingredients": {
+            "Translucent Ice": 1,
+            "Apple": 2,
+            "Sugar": 3
+        }
+    },
+    {
+        "name": "Fruit Wine",
+        "ingredients": {
+            "Fruit": 5,
+            "Exotic Herbal Wine": 1,
+            "Essence of Liquor": 3,
+            "Mineral Water": 2
+        }
+    },
+    {
+        "name": "Garaetteok",
+        "ingredients": {
+            "Rice Flour": 5,
+            "Salt": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Ghormeh Sabzi",
+        "ingredients": {
+            "Yak Meat": 5,
+            "Starch": 2,
+            "Garlic": 5,
+            "Salt": 2,
+            "Milk": 1
+        }
+    },
+    {
+        "name": "Good Feed",
+        "ingredients": {
+            "Fish": 1,
+            "Meat": 6,
+            "Flour": 4,
+            "Mineral Water": 3
+        }
+    },
+    {
+        "name": "Grain Soup",
+        "ingredients": {
+            "Starch": 6,
+            "Mineral Water": 3,
+            "Cooking Wine": 3,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Grilled Bird Meat",
+        "ingredients": {
+            "Bird Meat": 2,
+            "Deep Frying Oil": 6,
+            "Cooking Wine": 2,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Grilled Sausage",
+        "ingredients": {
+            "Meat": 6,
+            "Onion": 1,
+            "Pepper": 2,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Grilled Scorpion",
+        "ingredients": {
+            "Scorpion Meat": 3,
+            "Butter": 2,
+            "Nutmeg": 3,
+            "Hot Pepper": 3
+        }
+    },
+    {
+        "name": "Ham Sandwich",
+        "ingredients": {
+            "Soft Bread": 2,
+            "Grilled Sausage": 2,
+            "Vegetable": 5,
+            "Egg": 4
+        }
+    },
+    {
+        "name": "Hard-boiled Gargoyle Leg",
+        "ingredients": {
+            "Gargoyle Leg": 1,
+            "Exotic Herbal Wine": 2,
+            "Onion": 3,
+            "Garlic": 3,
+            "Vinegar": 2
+        }
+    },
+    {
+        "name": "Hard-Boiled Shellfish",
+        "ingredients": {
+            "Seafood": 2,
+            "Essence of Liquor": 3,
+            "Garlic": 4,
+            "Hot Pepper": 2,
+            "Olive Oil": 5
+        }
+    },
+    {
+        "name": "High-Quality Carrot Juice",
+        "ingredients": {
+            "High-Quality Carrot": 1,
+            "Flour": 3,
+            "Sugar": 3,
+            "Mineral Water": 4
+        }
+    },
+    {
+        "name": "Honey Wine",
+        "ingredients": {
+            "Honey": 3,
+            "Essence of Liquor": 2,
+            "Sugar": 2,
+            "Mineral Water": 6
+        }
+    },
+    {
+        "name": "Honeycomb Cookie",
+        "ingredients": {
+            "Honey": 6,
+            "Dough": 4,
+            "Egg": 2,
+            "Milk": 4
+        }
+    },
+    {
+        "name": "Hunters Salad",
+        "ingredients": {
+            "Soft Whale Meat": 1,
+            "Vinegar": 2,
+            "Dressing": 2,
+            "Garlic": 5
+        }
+    },
+    {
+        "name": "Jujube Tea",
+        "ingredients": {
+            "Jujube": 5,
+            "Mineral Water": 1,
+            "Cooking Honey": 3
+        }
+    },
+    {
+        "name": "Kamasylvia Meal",
+        "ingredients": {
+            "RB Mushroom Sandwich": 1,
+            "Coconut Pasta": 1,
+            "Fig Pie": 1,
+            "Fruit Wine": 2,
+            "RB Mushroom Cheese Melt": 1
+        }
+    },
+    {
+        "name": "Khalks Fermented Wine",
+        "ingredients": {
+            "Fugitive Khalks Horn": 1,
+            "Honey Wine": 5,
+            "Date Palm": 6,
+            "Leavening Agent": 6,
+            "Sugar": 6
+        }
+    },
+    {
+        "name": "King of Jungle Hamburg",
+        "ingredients": {
+            "Lion Meat": 4,
+            "Teff Bread": 4,
+            "Pickled Vegetables": 2,
+            "Nutmeg": 3
+        }
+    },
+    {
+        "name": "Knight Combat Rations",
+        "ingredients": {
+            "Dark Pudding": 1,
+            "Ham Sandwich": 1,
+            "Meat Croquette": 1,
+            "Fruit Wine": 1
+        }
+    },
+    {
+        "name": "Lean Meat Salad",
+        "ingredients": {
+            "Meat": 8,
+            "Vinegar": 2,
+            "Pepper": 3,
+            "Dressing": 4
+        }
+    },
+    {
+        "name": "Lizard Kebab",
+        "ingredients": {
+            "Reptile Meat": 6,
+            "Red Sauce": 2,
+            "Onion": 3,
+            "Starch": 7
+        }
+    },
+    {
+        "name": "Makgeolli",
+        "ingredients": {
+            "Corn Dough": 3,
+            "Essence of Liquor": 1,
+            "Mineral Water": 5,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Margoria Seafood Meal",
+        "ingredients": {
+            "Prawn Salad": 1,
+            "Steamed Prawn": 1,
+            "Pan-Fried Oyster": 1,
+            "Butter-Roasted Lobster": 1,
+            "Fruit Wine": 2
+        }
+    },
+    {
+        "name": "Meat Croquette",
+        "ingredients": {
+            "Meat": 8,
+            "Flour": 5,
+            "Egg": 2,
+            "Cheese": 2,
+            "Deep Frying Oil": 4
+        }
+    },
+    {
+        "name": "Meat Pasta",
+        "ingredients": {
+            "Meat": 5,
+            "Dough": 4,
+            "Pepper": 3,
+            "Garlic": 2
+        }
+    },
+    {
+        "name": "Meat Pie",
+        "ingredients": {
+            "Meat": 4,
+            "Dough": 6,
+            "Sugar": 2,
+            "Olive Oil": 2
+        }
+    },
+    {
+        "name": "Meat Sandwich",
+        "ingredients": {
+            "Soft Bread": 1,
+            "Meat": 7,
+            "Vegetable": 6,
+            "Cheese": 3
+        }
+    },
+    {
+        "name": "Meat Soup",
+        "ingredients": {
+            "Meat": 5,
+            "Pepper": 1,
+            "Cream": 2,
+            "Mineral Water": 4
+        }
+    },
+    {
+        "name": "Meat Stew",
+        "ingredients": {
+            "Meat": 5,
+            "Flour": 2,
+            "Mineral Water": 3,
+            "Cooking Wine": 2
+        }
+    },
+    {
+        "name": "Mediah Meal",
+        "ingredients": {
+            "Dark Pudding": 1,
+            "Oatmeal": 1,
+            "Grilled Sausage": 2,
+            "Lean Meat Salad": 1,
+            "Exotic Herbal Wine": 2
+        }
+    },
+    {
+        "name": "Mesima Chicken Soup",
+        "ingredients": {
+            "Mesima": 3,
+            "Mineral Water": 2,
+            "Garlic": 1,
+            "Date Palm": 1,
+            "Chicken Meat": 1
+        }
+    },
+    {
+        "name": "Mesima Rice Wine",
+        "ingredients": {
+            "Mesima": 2,
+            "Mineral Water": 3,
+            "Leavening Agent": 3,
+            "Wheat": 5
+        }
+    },
+    {
+        "name": "Milk Tea",
+        "ingredients": {
+            "Tea With Fine Scent": 2,
+            "Flour": 2,
+            "Milk": 3,
+            "Honey": 3
+        }
+    },
+    {
+        "name": "Moodle Gukbap",
+        "ingredients": {
+            "Rice Flour": 2,
+            "Cooked Rice": 1,
+            "Mineral Water": 1,
+            "Garlic": 2,
+            "Pork": 3
+        }
+    },
+    {
+        "name": "Mungbean Jeon",
+        "ingredients": {
+            "Mungbean": 5,
+            "Perilla Oil": 1,
+            "Salt": 1,
+            "Pork": 1,
+            "Bracken": 1
+        }
+    },
+    {
+        "name": "Nurungji",
+        "ingredients": {
+            "Cooked Rice": 1,
+            "Corn Oil": 1
+        }
+    },
+    {
+        "name": "O'dyllita Meal",
+        "ingredients": {
+            "Delotia Pudding": 1,
+            "Stir-Fried Bracken and Meat": 1,
+            "Delotia Juice": 2,
+            "Chicken Breast Salad": 2,
+            "Stir-Fried Bird": 2
+        }
+    },
+    {
+        "name": "Oatmeal",
+        "ingredients": {
+            "Flour": 9,
+            "Milk": 3,
+            "Onion": 3,
+            "Honey": 2
+        }
+    },
+    {
+        "name": "Omelet",
+        "ingredients": {
+            "Starch": 5,
+            "Egg": 5,
+            "Olive Oil": 2,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Organic Feed",
+        "ingredients": {
+            "Fish": 2,
+            "Oatmeal": 2,
+            "Meat": 5,
+            "Bird Meat": 4
+        }
+    },
+    {
+        "name": "Pan-Fried Oyster",
+        "ingredients": {
+            "Oyster": 3,
+            "Egg": 2,
+            "Flour": 5,
+            "Vinegar": 2,
+            "Olive Oil": 3
+        }
+    },
+    {
+        "name": "Pickled Citron and Onions",
+        "ingredients": {
+            "Onion": 2,
+            "Citron Vinegar": 2,
+            "Sugar": 2,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Pickled Fish",
+        "ingredients": {
+            "Fish": 1,
+            "Vinegar": 2,
+            "Leavening Agent": 2,
+            "Salt": 4
+        }
+    },
+    {
+        "name": "Pickled Vegetables",
+        "ingredients": {
+            "Vegetable": 8,
+            "Vinegar": 4,
+            "Leavening Agent": 2,
+            "Sugar": 2
+        }
+    },
+    {
+        "name": "Pistachio Fried Rice",
+        "ingredients": {
+            "Pistachio": 4,
+            "Teff": 6,
+            "Cinnamon": 2,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Prawn Salad",
+        "ingredients": {
+            "Shrimp": 2,
+            "Olive Oil": 3,
+            "Salt": 2,
+            "Egg": 3,
+            "Fruit and Vegetable Salad": 2
+        }
+    },
+    {
+        "name": "RB Mushroom Cheese Melt",
+        "ingredients": {
+            "RB Mushroom": 1,
+            "Meat": 2,
+            "Cheese": 2,
+            "Salt": 3,
+            "Olive Oil": 4
+        }
+    },
+    {
+        "name": "RB Mushroom Sandwich",
+        "ingredients": {
+            "RB Mushroom": 1,
+            "Soft Bread": 1,
+            "Cream": 2,
+            "Onion": 2,
+            "Olive Oil": 4
+        }
+    },
+    {
+        "name": "Red Bean Porridge",
+        "ingredients": {
+            "Red Bean": 5,
+            "Rice Flour": 5,
+            "Salt": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Red Bean Sirutteok",
+        "ingredients": {
+            "Red Bean": 4,
+            "Rice Flour": 3,
+            "Salt": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Red Sauce",
+        "ingredients": {
+            "Meat": 1,
+            "Base Sauce": 1,
+            "Sugar": 2,
+            "Mineral Water": 2
+        }
+    },
+    {
+        "name": "Roast Marmot",
+        "ingredients": {
+            "Marmot Meat": 5,
+            "Hot Pepper": 3,
+            "Salt": 2,
+            "Red Sauce": 1,
+            "Cooking Wine": 3
+        }
+    },
+    {
+        "name": "Roasted Ginkgo",
+        "ingredients": {
+            "Ginkgo": 4,
+            "Salt": 1,
+            "Perilla Oil": 1
+        }
+    },
+    {
+        "name": "Savory Cron Meal",
+        "ingredients": {
+            "Savory Steak": 1,
+            "Balenos Meal": 3,
+            "Sute Tea": 3,
+            "Ancient Cron Spice": 1
+        }
+    },
+    {
+        "name": "Savory Steak",
+        "ingredients": {
+            "Lion Meat": 4,
+            "Fig": 5,
+            "Cooking Wine": 2,
+            "Pepper": 3
+        }
+    },
+    {
+        "name": "Seafood Cron Meal",
+        "ingredients": {
+            "Balenos Meal": 3,
+            "Calpheon Meal": 3,
+            "Margoria Seafood Meal": 1,
+            "Ancient Cron Spice": 1
+        }
+    },
+    {
+        "name": "Seafood Grilled With Butter",
+        "ingredients": {
+            "Seafood": 1,
+            "Butter": 3,
+            "Salt": 2,
+            "Olive Oil": 1
+        }
+    },
+    {
+        "name": "Seafood Mushroom Salad",
+        "ingredients": {
+            "Seafood": 1,
+            "Fortune Teller Mushroom": 1,
+            "Dressing": 2
+        }
+    },
+    {
+        "name": "Seafood Pasta",
+        "ingredients": {
+            "Seafood": 2,
+            "Dough": 5,
+            "Garlic": 3,
+            "Cooking Wine": 3
+        }
+    },
+    {
+        "name": "Serendia Meal",
+        "ingredients": {
+            "Ham Sandwich": 1,
+            "Meat Pie": 1,
+            "Honeycomb Cookie": 1,
+            "Boiled Bird Eggs": 2,
+            "Fruit Wine": 2
+        }
+    },
+    {
+        "name": "Simple Cron Meal",
+        "ingredients": {
+            "Knight Combat Rations": 1,
+            "Mediah Meal": 3,
+            "Valencia Meal": 3,
+            "Ancient Cron Spice": 1
+        }
+    },
+    {
+        "name": "Single-brewed Mesima Tea",
+        "ingredients": {
+            "Mesima": 5,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Skewer",
+        "ingredients": {
+            "Pork": 5,
+            "Garaetteok": 2,
+            "Matsul": 1,
+            "Soy Sauce": 1,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Skewered Llama Cheese Melt",
+        "ingredients": {
+            "Llama Meat": 5,
+            "Cheese": 4,
+            "Hot Pepper": 3,
+            "Pepper": 1,
+            "White Sauce": 1
+        }
+    },
+    {
+        "name": "Smoked Fish Steak",
+        "ingredients": {
+            "Fish": 2,
+            "Salt": 2,
+            "Olive Oil": 1
+        }
+    },
+    {
+        "name": "Soft Bread",
+        "ingredients": {
+            "Dough": 6,
+            "Egg": 2,
+            "Milk": 3,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Soybean Jjigae",
+        "ingredients": {
+            "Soybean Paste": 3,
+            "Pork": 1,
+            "Garlic": 2,
+            "Soy Sauce": 1,
+            "Mineral Water": 3
+        }
+    },
+    {
+        "name": "Special Arehaza Meal",
+        "ingredients": {
+            "Coconut Cocktail": 2,
+            "Coconut Pasta": 1,
+            "Coconut Fried Fish": 1,
+            "Meat Stew": 1,
+            "Steak": 1
+        }
+    },
+    {
+        "name": "Special Carrot Juice",
+        "ingredients": {
+            "Special Carrot": 1,
+            "Flour": 3,
+            "Sugar": 3,
+            "Mineral Water": 4
+        }
+    },
+    {
+        "name": "Special Drieghanese Meal",
+        "ingredients": {
+            "Skewered Llama Cheese Melt": 1,
+            "Stir-Fried Bracken": 1,
+            "Roast Marmot": 1,
+            "Ghormeh Sabzi": 1,
+            "Honey Wine": 2
+        }
+    },
+    {
+        "name": "Special Eilton Specialty Meal",
+        "ingredients": {
+            "Citron Cider": 2,
+            "Chanterelle Porridge": 2,
+            "Pickled Citron and Onions": 1,
+            "Chanterelle Stew": 1
+        }
+    },
+    {
+        "name": "Steak",
+        "ingredients": {
+            "Meat": 8,
+            "Red Sauce": 2,
+            "Garlic": 2,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Steamed Bird",
+        "ingredients": {
+            "Bird Meat": 5,
+            "Vegetable": 3,
+            "Essence of Liquor": 2,
+            "Vinegar": 2,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Steamed Fish",
+        "ingredients": {
+            "Fish": 1,
+            "Garlic": 2,
+            "Mineral Water": 3,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Steamed Prawn",
+        "ingredients": {
+            "Shrimp": 4,
+            "Paprika": 3,
+            "Hot Pepper": 2,
+            "Cooking Wine": 3,
+            "Mineral Water": 4
+        }
+    },
+    {
+        "name": "Steamed Seafood",
+        "ingredients": {
+            "Seafood": 2,
+            "Hot Pepper": 3,
+            "Mineral Water": 6,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Steamed Whale Meat",
+        "ingredients": {
+            "Blue Whale Meat": 1,
+            "Honey Wine": 1,
+            "Garlic": 4,
+            "Mineral Water": 6,
+            "Salt": 2
+        }
+    },
+    {
+        "name": "Stir-Fried Bird",
+        "ingredients": {
+            "Chicken Meat": 5,
+            "Starch": 5,
+            "Onion": 3,
+            "Deep Frying Oil": 2
+        }
+    },
+    {
+        "name": "Stir-Fried Bracken",
+        "ingredients": {
+            "Bracken": 8,
+            "Garlic": 5,
+            "Salt": 2,
+            "Mineral Water": 5,
+            "Olive Oil": 2
+        }
+    },
+    {
+        "name": "Stir-Fried Bracken and Meat",
+        "ingredients": {
+            "Bracken": 3,
+            "Meat": 6,
+            "Garlic": 3,
+            "Olive Oil": 2,
+            "Mineral Water": 5
+        }
+    },
+    {
+        "name": "Stir-Fried Chanterelle and Meat",
+        "ingredients": {
+            "Chanterelle": 3,
+            "Pork": 5,
+            "Base Sauce": 2,
+            "Pepper": 2,
+            "Salt": 3
+        }
+    },
+    {
+        "name": "Stir-fried Gazelle Hind Leg",
+        "ingredients": {
+            "Gazelle Hind Leg": 1,
+            "Garlic": 4,
+            "Olive Oil": 5,
+            "Cabbage": 3,
+            "Salt": 5
+        }
+    },
+    {
+        "name": "Stir-Fried Meat",
+        "ingredients": {
+            "Meat": 7,
+            "Onion": 2,
+            "Hot Pepper": 3,
+            "Base Sauce": 2
+        }
+    },
+    {
+        "name": "Stir-Fried Seafood",
+        "ingredients": {
+            "Seafood": 1,
+            "Vegetable": 4,
+            "White Sauce": 2,
+            "Hot Pepper": 2
+        }
+    },
+    {
+        "name": "Stir-Fried Vegetables",
+        "ingredients": {
+            "Vegetable": 5,
+            "Hot Pepper": 2,
+            "Olive Oil": 2,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Sungnyung",
+        "ingredients": {
+            "Nurungji": 2,
+            "Mineral Water": 3
+        }
+    },
+    {
+        "name": "Sute Tea",
+        "ingredients": {
+            "Tea With Fine Scent": 2,
+            "Butter": 2,
+            "Milk": 3,
+            "Salt": 1
+        }
+    },
+    {
+        "name": "Sweet Honey Wine",
+        "ingredients": {
+            "Top-Quality Cooking Honey": 2,
+            "Full-Bodied Exotic Wine": 4,
+            "Sugar": 10,
+            "Fruit": 2
+        }
+    },
+    {
+        "name": "Tea With Fine Scent",
+        "ingredients": {
+            "Plants": 4,
+            "Fruit": 4,
+            "Honey": 3,
+            "Mineral Water": 7
+        }
+    },
+    {
+        "name": "Teff Bread",
+        "ingredients": {
+            "Teff Flour": 5,
+            "Mineral Water": 3,
+            "Salt": 2,
+            "Leavening Agent": 2
+        }
+    },
+    {
+        "name": "Teff Sandwich",
+        "ingredients": {
+            "Teff Bread": 1,
+            "Grilled Scorpion": 1,
+            "Freekeh Snake Stew": 1,
+            "Red Sauce": 3
+        }
+    },
+    {
+        "name": "Twice-brewed Mesima Tea",
+        "ingredients": {
+            "Single-brewed Mesima Tea": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Valencia Meal",
+        "ingredients": {
+            "Teff Sandwich": 1,
+            "King of Jungle Hamburg": 1,
+            "Couscous": 1,
+            "Fig Pie": 2,
+            "Date Palm Wine": 2
+        }
+    },
+    {
+        "name": "Vinegar",
+        "ingredients": {
+            "Fruit": 1,
+            "Starch": 1,
+            "Leavening Agent": 1,
+            "Sugar": 1
+        }
+    },
+    {
+        "name": "Well-brewed Mesima Tea",
+        "ingredients": {
+            "Twice-brewed Mesima Tea": 1,
+            "Mineral Water": 1
+        }
+    },
+    {
+        "name": "Whale Meat Salad",
+        "ingredients": {
+            "Blue Whale Meat": 1,
+            "Vegetable": 6,
+            "Dressing": 2,
+            "Egg": 3,
+            "Pepper": 4
+        }
+    },
+    {
+        "name": "White Kimchi",
+        "ingredients": {
+            "Napa Cabbage": 5,
+            "Onion": 1,
+            "Garlic": 4,
+            "Salt": 1,
+            "Mineral Water": 2
+        }
+    },
+    {
+        "name": "White Sauce",
+        "ingredients": {
+            "Fruit": 1,
+            "Milk": 1,
+            "Base Sauce": 1,
+            "Cooking Wine": 2
+        }
+    }
+]

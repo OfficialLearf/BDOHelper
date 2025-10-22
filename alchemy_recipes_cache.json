@@ -1,0 +1,1077 @@
+[
+    {
+        "name": "Antidote Elixir",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Weeds": 1,
+            "Blood 2": 2,
+            "Olive Oil": 3
+        }
+    },
+    {
+        "name": "Ardan's Jewel",
+        "ingredients": {
+            "Ardan's Broken Jewel I": 1,
+            "Ardan's Broken Jewel II": 1,
+            "Ardan's Broken Jewel III": 1
+        }
+    },
+    {
+        "name": "Askasha's Repaired Magic Weapon",
+        "ingredients": {
+            "Askasha's Broken Magic Weapon I": 1,
+            "Askasha's Broken Magic Weapon II": 1,
+            "Askasha's Broken Magic Weapon III": 1
+        }
+    },
+    {
+        "name": "Broken Alchemy Stone",
+        "ingredients": {
+            "Shining Powder": 10,
+            "Sinner's Blood": 3,
+            "Powder of Time": 5,
+            "Pure Powder Reagent": 10,
+            "Clear Liquid Reagent": 10
+        }
+    },
+    {
+        "name": "Clear Liquid Reagent",
+        "ingredients": {
+            "Salt": 1,
+            "Sunrise Herb": 1,
+            "Weeds": 1,
+            "Purified Water": 1
+        }
+    },
+    {
+        "name": "Clown's Blood",
+        "ingredients": {
+            "Spirit's Leaf": 1,
+            "Powder of Darkness": 1,
+            "Clear Liquid Reagent": 1,
+            "Blood 1": 2
+        }
+    },
+    {
+        "name": "Corrupt Oil of Immortality",
+        "ingredients": {
+            "Turo Heart": 1,
+            "Remnants of Burnt Spirits": 1,
+            "Oil of Regeneration": 20,
+            "Oil of Fortitude": 20,
+            "Oil of Corruption": 20
+        }
+    },
+    {
+        "name": "Defense Elixir",
+        "ingredients": {
+            "Clear Liquid Reagent": 1,
+            "Ash Sap": 6,
+            "Blood 2": 5,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Dragon's Tears",
+        "ingredients": {
+            "Distilled Water": 50,
+            "Clear Liquid Reagent": 50,
+            "Everlasting Herb": 50,
+            "Trace of Memory": 50,
+            "Magical Shard": 4
+        }
+    },
+    {
+        "name": "Elixir of Amity",
+        "ingredients": {
+            "Legendary Beast's Blood": 1,
+            "Fire Flake Flower": 5,
+            "Ash Sap": 6,
+            "Black Stone Powder": 3
+        }
+    },
+    {
+        "name": "Elixir of Armor",
+        "ingredients": {
+            "Oil of Fortitude": 3,
+            "Refined Delotia Reagent": 3,
+            "Thornwood Sap": 5,
+            "Thick Turo Blood": 1
+        }
+    },
+    {
+        "name": "Elixir of Assassination",
+        "ingredients": {
+            "Oil of Regeneration": 1,
+            "Pure Powder Reagent": 5,
+            "Amanita Mushroom": 4,
+            "Red Tree Lump": 2,
+            "Trace of Memory": 2
+        }
+    },
+    {
+        "name": "Elixir of Brawn",
+        "ingredients": {
+            "Oil of Fortitude": 1,
+            "Trace of Forest": 2,
+            "Dictyophora": 3,
+            "Pure Powder Reagent": 5,
+            "Powder of Earth": 7
+        }
+    },
+    {
+        "name": "Elixir of Burn Removal",
+        "ingredients": {
+            "Clear Liquid Reagent": 1,
+            "Purified Water": 1,
+            "Fruit": 2,
+            "Weeds": 2
+        }
+    },
+    {
+        "name": "Elixir of Carnage",
+        "ingredients": {
+            "Oil of Corruption": 1,
+            "Pure Powder Reagent": 7,
+            "Tiger Mushroom": 2,
+            "Spirit's Leaf": 2,
+            "Trace of the Earth": 3
+        }
+    },
+    {
+        "name": "Elixir of Concentration",
+        "ingredients": {
+            "Clear Liquid Reagent": 1,
+            "Cloud Mushroom": 3,
+            "Wild Grass": 2,
+            "Blood 4": 3
+        }
+    },
+    {
+        "name": "Elixir of Death",
+        "ingredients": {
+            "Oil of Tranquility": 1,
+            "Clear Liquid Reagent": 6,
+            "Ancient Mushroom": 2,
+            "Ash Sap": 7,
+            "Trace of Death": 2
+        }
+    },
+    {
+        "name": "Elixir of Deep Sea",
+        "ingredients": {
+            "Oil of the Abyss": 1,
+            "Coral Crystal": 2,
+            "Clear Liquid Reagent": 5,
+            "Arrow Mushroom": 5,
+            "White Cedar Sap": 5
+        }
+    },
+    {
+        "name": "Elixir of Demihuman Hunt",
+        "ingredients": {
+            "Sinner's Blood": 1,
+            "Arrow Mushroom": 4,
+            "Fir Sap": 4,
+            "Black Stone Powder": 3
+        }
+    },
+    {
+        "name": "Elixir of Destruction",
+        "ingredients": {
+            "Oil of Storms": 1,
+            "Trace of Hunting": 3,
+            "Clear Liquid Reagent": 5,
+            "Powder of Flame": 5,
+            "Snowfield Cedar Sap": 7
+        }
+    },
+    {
+        "name": "Elixir of Detection",
+        "ingredients": {
+            "Oil of Storms": 1,
+            "Pure Powder Reagent": 6,
+            "Truffle Mushroom": 3,
+            "Old Tree Bark": 2,
+            "Trace of Savagery": 3
+        }
+    },
+    {
+        "name": "Elixir of Draining",
+        "ingredients": {
+            "Oil of Fortitude": 1,
+            "Clear Liquid Reagent": 4,
+            "Hump Mushroom": 3,
+            "Birch Sap": 4,
+            "Trace of Forest": 2
+        }
+    },
+    {
+        "name": "Elixir of Endurance",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Dwarf Mushroom": 2,
+            "Birch Sap": 5,
+            "Blood 4": 4
+        }
+    },
+    {
+        "name": "Elixir of Energy",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Blood 3": 4,
+            "Purified Water": 3,
+            "MP Potion (Small)": 2
+        }
+    },
+    {
+        "name": "Elixir of Fond Memories",
+        "ingredients": {
+            "Incomplete First Element": 1,
+            "Arenda's Special Base": 1,
+            "Oil of Regeneration": 1,
+            "Trace of Memory": 2
+        }
+    },
+    {
+        "name": "Elixir of Frenzy",
+        "ingredients": {
+            "Oil of Regeneration": 1,
+            "Clear Liquid Reagent": 5,
+            "Cedar Sap": 5,
+            "Trace of Battle": 3,
+            "Ghost Mushroom": 2
+        }
+    },
+    {
+        "name": "Elixir of Fury",
+        "ingredients": {
+            "Dwarf Mushroom": 4,
+            "Ash Sap": 1,
+            "Blood 4": 4,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Elixir of Hemostasis",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Cloud Mushroom": 1,
+            "Ash Sap": 1,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Elixir of Human Hunt",
+        "ingredients": {
+            "Clown's Blood": 1,
+            "Fortune Teller Mushroom": 4,
+            "Maple Sap": 4,
+            "Black Stone Powder": 3
+        }
+    },
+    {
+        "name": "Elixir of Labor",
+        "ingredients": {
+            "Sinner's Blood": 2,
+            "Refined Delotia Reagent": 2,
+            "Powder of Time": 2,
+            "Thornwood Sap": 4
+        }
+    },
+    {
+        "name": "Elixir of Life",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Silver Azalea": 3,
+            "Blood 3": 5,
+            "HP Potion (Small)": 3
+        }
+    },
+    {
+        "name": "Elixir of Mastery",
+        "ingredients": {
+            "Oil of Tranquility": 2,
+            "Refined Delotia Reagent": 3,
+            "Thornwood Sap": 5,
+            "Everlasting Herb": 5,
+            "Trace of Forest": 2
+        }
+    },
+    {
+        "name": "Elixir of Mentality",
+        "ingredients": {
+            "Clear Liquid Reagent": 1,
+            "Ash Sap": 4,
+            "Purified Water": 3,
+            "MP Potion (Small)": 3
+        }
+    },
+    {
+        "name": "Elixir of Perforation",
+        "ingredients": {
+            "Oil of Corruption": 1,
+            "Clear Liquid Reagent": 4,
+            "Bluffer Mushroom": 5,
+            "Pine Sap": 5,
+            "Trace of Violence": 2
+        }
+    },
+    {
+        "name": "Elixir of Persistence",
+        "ingredients": {
+            "Oil of Tranquility": 1,
+            "Trace of Forest": 2,
+            "Red-spotted Amanita": 3,
+            "Clear Liquid Reagent": 5,
+            "Powder of Time": 7
+        }
+    },
+    {
+        "name": "Elixir of Resistance",
+        "ingredients": {
+            "Cloud Mushroom": 3,
+            "Birch Sap": 1,
+            "Blood 1": 7,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Elixir of Seal",
+        "ingredients": {
+            "Dwarf Mushroom": 3,
+            "Birch Sap": 1,
+            "Blood 1": 4,
+            "Purified Water": 5
+        }
+    },
+    {
+        "name": "Elixir of Shock",
+        "ingredients": {
+            "Clown's Blood": 1,
+            "Tiger Mushroom": 5,
+            "Cedar Sap": 7,
+            "Powder of Time": 3
+        }
+    },
+    {
+        "name": "Elixir of Skill",
+        "ingredients": {
+            "Wise Man's Blood": 2,
+            "Delotia": 5,
+            "Powder of Time": 2,
+            "Thornwood Sap": 5,
+            "Trace of Chaos": 2
+        }
+    },
+    {
+        "name": "Elixir of Sky",
+        "ingredients": {
+            "Oil of Tranquility": 1,
+            "Pure Powder Reagent": 6,
+            "Emperor Mushroom": 5,
+            "Bloody Tree Knot": 2,
+            "Trace of Ascension": 4
+        }
+    },
+    {
+        "name": "Elixir of Spells",
+        "ingredients": {
+            "Tyrant's Blood": 1,
+            "Fire Flake Flower": 5,
+            "Maple Sap": 3,
+            "Powder of Darkness": 2
+        }
+    },
+    {
+        "name": "Elixir of Swiftness",
+        "ingredients": {
+            "Legendary Beast's Blood": 1,
+            "Arrow Mushroom": 5,
+            "Birch Sap": 5,
+            "Powder of Darkness": 2
+        }
+    },
+    {
+        "name": "Elixir of Time",
+        "ingredients": {
+            "Wise Man's Blood": 1,
+            "Fire Flake Flower": 6,
+            "Maple Sap": 5,
+            "Powder of Time": 2
+        }
+    },
+    {
+        "name": "Elixir of Training",
+        "ingredients": {
+            "Legendary Beast's Blood": 1,
+            "Silver Azalea": 7,
+            "Pine Sap": 4,
+            "Powder of Rifts": 2
+        }
+    },
+    {
+        "name": "Elixir of Will",
+        "ingredients": {
+            "Pure Powder Reagent": 1,
+            "Sunrise Herb": 4,
+            "Blood 1": 6,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Elixir of Wind",
+        "ingredients": {
+            "Wise Man's Blood": 1,
+            "Fortune Teller Mushroom": 5,
+            "Pine Sap": 5,
+            "Powder of Darkness": 2
+        }
+    },
+    {
+        "name": "Elixir of Wings",
+        "ingredients": {
+            "Silver Azalea": 2,
+            "Ash Sap": 1,
+            "Blood 4": 4,
+            "Purified Water": 5
+        }
+    },
+    {
+        "name": "Essence of Abundance",
+        "ingredients": {
+            "Fruit of Abundance": 2,
+            "Cloud Mushroom": 6,
+            "Birch Sap": 6,
+            "Trace of Ascension": 2
+        }
+    },
+    {
+        "name": "Essence of Crimson Flame",
+        "ingredients": {
+            "Fruit of Crimson Flame": 2,
+            "Dwarf Mushroom": 6,
+            "Ash Sap": 6,
+            "Trace of Ascension": 2
+        }
+    },
+    {
+        "name": "Essence of Destruction",
+        "ingredients": {
+            "Fruit of Destruction": 2,
+            "Silver Azalea": 6,
+            "Pine Sap": 6,
+            "Powder of Flame": 2
+        }
+    },
+    {
+        "name": "Essence of Enchantment",
+        "ingredients": {
+            "Fruit of Enchantment": 2,
+            "Fire Flake Flower": 3,
+            "Ash Sap": 4,
+            "Powder of Darkness": 2
+        }
+    },
+    {
+        "name": "Essence of Magic Power",
+        "ingredients": {
+            "Fruit of Magic Power": 2,
+            "Dry Mane Grass": 6,
+            "Birch Sap": 6,
+            "Powder of Darkness": 2
+        }
+    },
+    {
+        "name": "Essence of Nature",
+        "ingredients": {
+            "Fruit of Nature": 2,
+            "Fortune Teller Mushroom": 6,
+            "Maple Sap": 6,
+            "Trace of the Earth": 2
+        }
+    },
+    {
+        "name": "Essence of Perfection",
+        "ingredients": {
+            "Fruit of Perfection": 2,
+            "Sunrise Herb": 6,
+            "Maple Sap": 6,
+            "Powder of Flame": 2
+        }
+    },
+    {
+        "name": "Essence of the Sun",
+        "ingredients": {
+            "Fruit of the Sun": 2,
+            "Arrow Mushroom": 6,
+            "Pine Sap": 6,
+            "Trace of the Earth": 2
+        }
+    },
+    {
+        "name": "Essence of Tunta",
+        "ingredients": {
+            "Fruit of Enchantment": 50,
+            "Refined Delotia Reagent": 50,
+            "Fine Lightweight Plume": 50,
+            "Black Gem Fragment": 10,
+            "Latent Aura": 2
+        }
+    },
+    {
+        "name": "EXP Elixir",
+        "ingredients": {
+            "Clown's Blood": 1,
+            "Dry Mane Grass": 7,
+            "Pine Sap": 5,
+            "Powder of Flame": 2
+        }
+    },
+    {
+        "name": "Fisher's Elixir",
+        "ingredients": {
+            "Wise Man's Blood": 1,
+            "Sunrise Herb": 6,
+            "Fir Sap": 3,
+            "Powder of Flame": 2
+        }
+    },
+    {
+        "name": "Flawless Spirit Stone",
+        "ingredients": {
+            "Oil of Tranquility": 10,
+            "Tenacious Origin of Life": 4,
+            "Rough Opulent Crystal": 4
+        }
+    },
+    {
+        "name": "Gem Polisher",
+        "ingredients": {
+            "Trace of Origin": 2,
+            "Pure Powder Reagent": 1,
+            "Processed Coal": 4,
+            "Purified Water": 6
+        }
+    },
+    {
+        "name": "Golden Hand Elixir",
+        "ingredients": {
+            "Oil of Storms": 1,
+            "Clear Liquid Reagent": 4,
+            "Fog Mushroom": 4,
+            "Trace of Hunting": 3,
+            "Fir Sap": 6
+        }
+    },
+    {
+        "name": "Griffon's Elixir",
+        "ingredients": {
+            "Griffon Claw": 1,
+            "Cedar Sap": 6,
+            "Trace of Battle": 3,
+            "Purified Water": 3,
+            "Sinner's Blood": 2
+        }
+    },
+    {
+        "name": "Grim Reaper's Elixir",
+        "ingredients": {
+            "Oil of Fortitude": 1,
+            "Pure Powder Reagent": 4,
+            "Sky Mushroom": 2,
+            "Monk's Branch": 2,
+            "Trace of Origin": 4
+        }
+    },
+    {
+        "name": "Helix Elixir",
+        "ingredients": {
+            "Thuja Sap": 6,
+            "Monk's Branch": 3,
+            "Clown's Blood": 2,
+            "Powder of Flame": 2,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Herbal Gunpowder",
+        "ingredients": {
+            "Insectivore Plant Powder": 1,
+            "Powder of Darkness": 1
+        }
+    },
+    {
+        "name": "Herbal Poison",
+        "ingredients": {
+            "Insectivore Plant Sap": 1,
+            "Amanita Mushroom": 5
+        }
+    },
+    {
+        "name": "Imperfect Alchemy Stone of Destruction",
+        "ingredients": {
+            "Shining Powder": 10,
+            "Sinner's Blood": 3,
+            "Powder of Time": 5,
+            "Pure Powder Reagent": 10,
+            "Clear Liquid Reagent": 10
+        }
+    },
+    {
+        "name": "Imperfect Alchemy Stone of Life",
+        "ingredients": {
+            "Shining Powder": 10,
+            "Sinner's Blood": 3,
+            "Powder of Time": 5,
+            "Pure Powder Reagent": 10,
+            "Clear Liquid Reagent": 10
+        }
+    },
+    {
+        "name": "Imperfect Alchemy Stone of Protection",
+        "ingredients": {
+            "Shining Powder": 10,
+            "Sinner's Blood": 3,
+            "Powder of Time": 5,
+            "Pure Powder Reagent": 10,
+            "Clear Liquid Reagent": 10
+        }
+    },
+    {
+        "name": "Khalk's Elixir",
+        "ingredients": {
+            "Fugitive Khalk's Skin": 1,
+            "White Cedar Sap": 10,
+            "Trace of Chaos": 5,
+            "Purified Water": 4,
+            "Oil of Corruption": 2
+        }
+    },
+    {
+        "name": "Leather Glaze",
+        "ingredients": {
+            "Maple Sap": 3,
+            "Powder of Darkness": 2,
+            "Trace of Ascension": 3,
+            "Clear Liquid Reagent": 1
+        }
+    },
+    {
+        "name": "Legendary Beast's Blood",
+        "ingredients": {
+            "Spirit's Leaf": 1,
+            "Trace of the Earth": 1,
+            "Pure Powder Reagent": 1,
+            "Blood 5": 2
+        }
+    },
+    {
+        "name": "Looney Elixir",
+        "ingredients": {
+            "Moss Tree Sap": 4,
+            "Volcanic Umbrella Mushroom": 2,
+            "Powder of Flame": 3,
+            "Red Tree Lump": 5,
+            "Violet Flower": 1
+        }
+    },
+    {
+        "name": "Marking Reagent",
+        "ingredients": {
+            "Sinner's Blood": 1,
+            "Magic Crystal - Vision": 1,
+            "Herbal Gunpowder": 1,
+            "Sticky Liquid": 1,
+            "Black Stone Powder": 5
+        }
+    },
+    {
+        "name": "Metal Solvent",
+        "ingredients": {
+            "Melted Iron Shard": 3,
+            "Trace Of Savagery": 2,
+            "Clear Liquid Reagent": 1,
+            "Rough Stone": 4
+        }
+    },
+    {
+        "name": "Miloberry's Apu Apu Waterstarwort",
+        "ingredients": {
+            "00005140.png": 1,
+            "Fairy Powder": 10,
+            "Essence of Liquor": 10,
+            "Spirit's Leaf": 10
+        }
+    },
+    {
+        "name": "Oil of Corruption",
+        "ingredients": {
+            "Sinner's Blood": 1,
+            "Spirit's Leaf": 1,
+            "Fruit of the Sun": 1,
+            "Powder of Darkness": 1
+        }
+    },
+    {
+        "name": "Oil of Enchantment",
+        "ingredients": {
+            "Fruit of Enchantment": 1,
+            "Refined Delotia Reagent": 1,
+            "Purified Water": 2,
+            "Everlasting Herb": 2,
+            "Thick Turo Blood": 2
+        }
+    },
+    {
+        "name": "Oil of Fortitude",
+        "ingredients": {
+            "Clown's Blood": 1,
+            "Monk's Branch": 1,
+            "Fruit of Nature": 1,
+            "Powder of Flame": 1
+        }
+    },
+    {
+        "name": "Oil of Regeneration",
+        "ingredients": {
+            "Legendary Beast's Blood": 1,
+            "Red Tree Lump": 1,
+            "Fruit of Crimson Flame": 1,
+            "Powder of Rifts": 1
+        }
+    },
+    {
+        "name": "Oil of Regeneration",
+        "ingredients": {
+            "Legendary Beast's Blood": 1,
+            "Fruit of Crimson Flame": 1,
+            "Powder of Rifts": 1,
+            "Everlasting Herb": 1
+        }
+    },
+    {
+        "name": "Oil of Storms",
+        "ingredients": {
+            "Tyrant's Blood": 1,
+            "Old Tree Bark": 1,
+            "Fruit of Abundance": 1,
+            "Powder of Time": 1
+        }
+    },
+    {
+        "name": "Oil of the Abyss",
+        "ingredients": {
+            "Tyrant's Blood": 1,
+            "Deep Sea Fruit": 1,
+            "Powder of Time": 2,
+            "Bloody Tree Knot": 2
+        }
+    },
+    {
+        "name": "Oil of Tranquility",
+        "ingredients": {
+            "Wise Man's Blood": 1,
+            "Bloody Tree Knot": 1,
+            "Fruit of Magic Power": 1,
+            "Powder of Earth": 1
+        }
+    },
+    {
+        "name": "Perfume of Charm",
+        "ingredients": {
+            "Oil of Enchantment": 2,
+            "Shining Powder": 3,
+            "Everlasting Herb": 5,
+            "Delotia Essence": 1,
+            "Purified Water": 3
+        }
+    },
+    {
+        "name": "Perfume of Courage",
+        "ingredients": {
+            "Blue Whale Oil": 1,
+            "Trace of Violence": 3,
+            "Bloody Tree Knot": 6,
+            "Purified Water": 4,
+            "Clear Liquid Reagent": 2
+        }
+    },
+    {
+        "name": "Perfume of Insight",
+        "ingredients": {
+            "Essence of Insight": 1,
+            "Trace of Origin": 3,
+            "Monk's Branch": 3,
+            "Purified Water": 3,
+            "Powder of Rifts": 5
+        }
+    },
+    {
+        "name": "Perfume of Swiftness",
+        "ingredients": {
+            "Blue Whale Oil": 1,
+            "Powder of Time": 4,
+            "Everlasting Herb": 6,
+            "Purified Water": 4,
+            "Clear Liquid Reagent": 2
+        }
+    },
+    {
+        "name": "Plywood Hardener",
+        "ingredients": {
+            "Fir Sap": 4,
+            "Pure Powder Reagent": 1,
+            "Bloody Tree Knot": 3,
+            "Trace of the Earth": 3
+        }
+    },
+    {
+        "name": "Pure Powder Reagent",
+        "ingredients": {
+            "Sugar": 1,
+            "Silver Azalea": 1,
+            "Weeds": 1,
+            "Purified Water": 1
+        }
+    },
+    {
+        "name": "Purified Lightstone of Earth",
+        "ingredients": {
+            "Imperfect Lightstone of Earth": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Weapon)": 10,
+            "Powder of Earth": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Earth",
+        "ingredients": {
+            "Imperfect Lightstone of Earth": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Armor)": 10,
+            "Powder of Earth": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Fire",
+        "ingredients": {
+            "Imperfect Lightstone of Fire": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Weapon)": 10,
+            "Powder of Flame": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Fire",
+        "ingredients": {
+            "Imperfect Lightstone of Fire": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Armor)": 10,
+            "Powder of Flame": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Flora",
+        "ingredients": {
+            "Imperfect Lightstone of Flora": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Weapon)": 10,
+            "Powder of Time": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Flora",
+        "ingredients": {
+            "Imperfect Lightstone of Flora": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Armor)": 10,
+            "Powder of Time": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Wind",
+        "ingredients": {
+            "Imperfect Lightstone of Wind": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Weapon)": 10,
+            "Powder of Rifts": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Purified Lightstone of Wind",
+        "ingredients": {
+            "Imperfect Lightstone of Wind": 1,
+            "Black Gem Fragment": 10,
+            "Black Stone (Armor)": 10,
+            "Powder of Rifts": 50,
+            "Pure Powder Reagent": 50
+        }
+    },
+    {
+        "name": "Refined Delotia Reagent",
+        "ingredients": {
+            "Delotia Powder": 3,
+            "Clear Liquid Reagent": 1,
+            "Pure Powder Reagent": 1
+        }
+    },
+    {
+        "name": "Resurrection Elixir",
+        "ingredients": {
+            "Clear Liquid Reagent": 1,
+            "Sunrise Herb": 3,
+            "Purified Water": 3,
+            "HP Potion (Small)": 2
+        }
+    },
+    {
+        "name": "Rough Opulent Crystal",
+        "ingredients": {
+            "Translucent Crystal": 50,
+            "Mud Crystal": 50,
+            "Black Crystal": 50,
+            "Blue Crystal": 50,
+            "Violet Crystal": 50
+        }
+    },
+    {
+        "name": "Runn Light Fragment",
+        "ingredients": {
+            "Inextinguishable Stone": 1,
+            "Stabilized Magical Black Stone": 1,
+            "Cleansed Magical Black Stone": 1
+        }
+    },
+    {
+        "name": "Sinner's Blood",
+        "ingredients": {
+            "Bloody Tree Knot": 1,
+            "Powder of Flame": 1,
+            "Clear Liquid Reagent": 1,
+            "Blood 2": 2
+        }
+    },
+    {
+        "name": "Special Honey Jar",
+        "ingredients": {
+            "Top-Quality Cooking Honey": 2,
+            "Fruit of Abundance": 5,
+            "Essence of Liquor": 1,
+            "Purified Water": 2
+        }
+    },
+    {
+        "name": "Spirit Perfume Elixir",
+        "ingredients": {
+            "Dead Tree Essence": 1,
+            "Fruit of Nature": 1,
+            "Loopy Tree Sap": 10,
+            "Powder of Darkness": 10,
+            "Violet Flower": 2
+        }
+    },
+    {
+        "name": "Spirit Stone - Destruction",
+        "ingredients": {
+            "Mystical Spirit Powder": 50,
+            "Flawless Spirit Stone": 5,
+            "Metal Solvent": 50,
+            "Cron Stone": 5,
+            "Reagent of Harmonious Spirits": 1
+        }
+    },
+    {
+        "name": "Spirit Stone - Guardian",
+        "ingredients": {
+            "Flawless Spirit Stone": 5,
+            "Mystical Spirit Powder": 50,
+            "Gem Polisher": 50,
+            "Cron Stone": 5,
+            "Reagent of Harmonious Spirits": 1
+        }
+    },
+    {
+        "name": "Tenacious Origin of Life",
+        "ingredients": {
+            "Sunrise Herb": 50,
+            "Silver Azalea": 50,
+            "Fire Flake Flower": 50,
+            "Dry Mane Grass": 50,
+            "Silk Honey Grass": 50
+        }
+    },
+    {
+        "name": "Tyrant's Blood",
+        "ingredients": {
+            "Monk's Branch": 1,
+            "Trace Of Savagery": 1,
+            "Pure Powder Reagent": 1,
+            "Blood 4": 2
+        }
+    },
+    {
+        "name": "Vell's Fine Powder",
+        "ingredients": {
+            "Coral Piece": 30,
+            "Blood 6": 30,
+            "Coral": 10,
+            "Shining Powder": 2,
+            "Alchemy Stone Shard": 1
+        }
+    },
+    {
+        "name": "Weenie Elixir",
+        "ingredients": {
+            "Moss Tree Sap": 4,
+            "Blue Umbrella Mushroom": 2,
+            "Powder of Time": 3,
+            "Monk's Branch": 5,
+            "Sky Blue Flower": 1
+        }
+    },
+    {
+        "name": "Whale Tendon Elixir",
+        "ingredients": {
+            "Blue Whale Tendon": 1,
+            "Clown's Blood": 1,
+            "Ash Sap": 12,
+            "Purified Water": 5,
+            "Clear Liquid Reagent": 2
+        }
+    },
+    {
+        "name": "Whale Tendon Potion",
+        "ingredients": {
+            "Blue Whale Tendon": 1,
+            "HP Potion (Medium)": 3,
+            "MP Potion (Medium)": 3,
+            "Purified Water": 8
+        }
+    },
+    {
+        "name": "Wise Man's Blood",
+        "ingredients": {
+            "Monk's Branch": 1,
+            "Trace Of Ascension": 1,
+            "Clear Liquid Reagent": 1,
+            "Blood 3": 2
+        }
+    },
+    {
+        "name": "Worker's Elixir",
+        "ingredients": {
+            "Sinner's Blood": 1,
+            "Silver Azalea": 6,
+            "Ash Sap": 4,
+            "Powder of Flame": 2
+        }
+    }
+]
