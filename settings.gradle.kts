@@ -1,1 +1,1 @@
-rootProject.name = "javafx-game-starter-jdk21"
+rootProject.name = "BDOHelperApp"
