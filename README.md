@@ -1,5 +1,10 @@
-# javafx-game-starter-jdk21
+BDOHelper
 
-Basic JavaFX starter project that draws graphics on a canvas, based on JDK 21.
+Black Desert Online Helper
 
-Run the application with `./gradlew run`.
+Personal project
+
+Implemented:
+-Alchemy recipes, Cooking recipes and a Boss Timer
+To Do:
+-Enhancement Calculator, Node Map
