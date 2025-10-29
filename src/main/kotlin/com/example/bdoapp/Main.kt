@@ -1,35 +1,35 @@
 package com.example.bdoapp
 
-import com.example.bdoapp.Util.IconScraper
 import com.example.bdoapp.UI.MainMenuView
 import com.example.bdoapp.UI.AppStyles
 import com.example.bdoapp.Util.NavigationManager
+import com.example.bdoapp.Util.NotificationService
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.stage.Stage
-import java.io.File
-import javax.imageio.ImageIO
-import java.awt.image.BufferedImage
-
 
 
 class Main : Application() {
     override fun start(primaryStage: Stage) {
         val navigation = NavigationManager(primaryStage)
-
+        NotificationService.start()
         primaryStage.title = "BDO Helper App"
 
-        // Pass the navigation manager to MainMenuView
         val mainMenuView = MainMenuView(navigation)
         val scene = Scene(mainMenuView.createContent(), 1200.0, 700.0)
 
-        // Add the stylesheet
         scene.stylesheets.add(
             "data:text/css;base64," +
                     java.util.Base64.getEncoder().encodeToString(
                         AppStyles.getStylesheet().toByteArray()
                     )
         )
+        val stylesheet = javaClass.getResource("/dialog-style.css")?.toExternalForm()
+        if (stylesheet != null) {
+            scene.stylesheets.add(stylesheet)
+        } else {
+            println("ERROR: The main stylesheet (dialog-style.css) was not found!")
+        }
 
         primaryStage.scene = scene
         primaryStage.show()
@@ -38,6 +38,7 @@ class Main : Application() {
 
 fun main() {
     Application.launch(Main::class.java)
+
     //val iconScraper = IconScraper()
 
     // Get cooking recipes

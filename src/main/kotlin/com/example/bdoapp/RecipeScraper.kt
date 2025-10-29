@@ -8,7 +8,6 @@ class RecipeScraper {
     var useAlchemyURL: Boolean = true // set true to scrape alchemy recipes
 
     fun getRecipes(): List<Recipe> {
-        // Load from appropriate cache
         val cachedRecipes = if (useAlchemyURL) {
             AlchemyRecipeCache.loadRecipes()
         } else {
@@ -17,11 +16,9 @@ class RecipeScraper {
 
         if (cachedRecipes != null) return cachedRecipes
 
-        // Scrape recipes
         val recipes = scrapeRecipes(if (useAlchemyURL) "https://incendar.com/bdoalchemyrecipes.php"
         else "https://incendar.com/bdocookingrecipes.php")
 
-        // Save to appropriate cache
         if (useAlchemyURL) {
             AlchemyRecipeCache.saveRecipes(recipes)
         } else {
@@ -69,10 +66,10 @@ class RecipeScraper {
                 }
             }
 
-            println("✅ Successfully scraped ${recipes.size} recipes from $url")
+            println("Successfully scraped ${recipes.size} recipes from $url")
 
         } catch (e: Exception) {
-            println("❌ Error scraping recipes: ${e.message}")
+            println("Error scraping recipes: ${e.message}")
         }
 
         return recipes

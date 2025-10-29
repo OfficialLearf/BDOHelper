@@ -17,7 +17,7 @@ class MainMenuView(private val navigation: NavigationManager) {
             padding = Insets(40.0)
             styleClass.add("main-container")
 
-            // Header section
+
             val titleLabel = Label("BDO Helper App").apply {
                 styleClass.add("title-label")
             }
@@ -26,12 +26,10 @@ class MainMenuView(private val navigation: NavigationManager) {
                 styleClass.add("subtitle-label")
             }
 
-            // Spacer
             val spacer1 = Region().apply {
                 prefHeight = 20.0
             }
 
-            // Active features section
             val activeLabel = Label("Active Features").apply {
                 styleClass.add("section-title")
             }
@@ -40,11 +38,13 @@ class MainMenuView(private val navigation: NavigationManager) {
                 navigation.showCookingCalculator()
             }
 
-            val alchemyButton = createMenuButton("⚗️ Alchemy Calculator", "Plan your alchemy crafting") {
+            val alchemyButton = createMenuButton("⚗ Alchemy Calculator", "Plan your alchemy crafting") {
                 navigation.showAlchemyCalculator()
             }
+            val bossTimerButton = createMenuButton("⚔ Boss Timers", "Never miss a boss spawn") {
+                navigation.showBossTimer()
+            }
 
-            // Coming soon section
             val spacer2 = Region().apply {
                 prefHeight = 20.0
             }
@@ -54,13 +54,10 @@ class MainMenuView(private val navigation: NavigationManager) {
             }
 
             val gatheringButton = createMenuButton("🌾 Gathering Helper", "Track gathering resources", true)
-            val bossTimerButton = createMenuButton("⚔️ Boss Timers", "Never miss a boss spawn") {
-                navigation.showBossTimer()
-            }
+
             val enhancementButton = createMenuButton("✨ Enhancement Calculator", "Calculate enhancement costs", true)
             val nodeMapButton = createMenuButton("🗺️ Node Map", "Manage your worker empire", true)
 
-            // Bottom spacer to push exit button down
             val bottomSpacer = Region().apply {
                 VBox.setVgrow(this, Priority.ALWAYS)
             }

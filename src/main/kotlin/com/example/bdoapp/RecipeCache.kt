@@ -14,9 +14,9 @@ object RecipeCache {
         try {
             val json = jsonFormat.encodeToString(recipes)
             File(CACHE_FILE).writeText(json)
-            println("💾 Saved ${recipes.size} recipes to cache")
+            println("Saved ${recipes.size} recipes to cache")
         } catch (e: Exception) {
-            println("❌ Error saving cache: ${e.message}")
+            println("Error saving cache: ${e.message}")
             e.printStackTrace()
         }
     }
@@ -27,13 +27,13 @@ object RecipeCache {
             if (file.exists()) {
                 val json = file.readText()
                 val recipes = jsonFormat.decodeFromString<List<Recipe>>(json)
-                println("📂 Loaded ${recipes.size} recipes from cache")
+                println("Loaded ${recipes.size} recipes from cache")
                 recipes
             } else {
                 null
             }
         } catch (e: Exception) {
-            println("❌ Error loading cache: ${e.message}")
+            println("Error loading cache: ${e.message}")
             null
         }
     }
@@ -50,9 +50,9 @@ object AlchemyRecipeCache {
         try {
             val json = jsonFormat.encodeToString(recipes)
             File(CACHE_FILE).writeText(json)
-            println("💾 Saved ${recipes.size} alchemy recipes to cache")
+            println("Saved ${recipes.size} alchemy recipes to cache")
         } catch (e: Exception) {
-            println("❌ Error saving alchemy cache: ${e.message}")
+            println("Error saving alchemy cache: ${e.message}")
             e.printStackTrace()
         }
     }
@@ -63,14 +63,13 @@ object AlchemyRecipeCache {
             {
                 val json = file.readText()
                 val recipes = jsonFormat.decodeFromString<List<Recipe>>(json)
-                println("📂 Loaded ${recipes.size} alchemy recipes from cache")
+                println("Loaded ${recipes.size} alchemy recipes from cache")
                 recipes
             }
             else null
         } catch (e: Exception) {
-            println("❌ Error loading alchemy cache: ${e.message}")
+            println("Error loading alchemy cache: ${e.message}")
             null
         }
         }
-
     }

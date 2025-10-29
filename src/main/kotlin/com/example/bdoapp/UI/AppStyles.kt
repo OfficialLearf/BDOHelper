@@ -178,7 +178,11 @@ object AppStyles {
             .scroll-bar .track {
                 -fx-background-color: #2c2c2c;
             }
-            
+            .card:hover {
+                -fx-background-color: #333333;
+                -fx-border-color: #e74c3c; /* Your red outline color */
+                -fx-border-width: 2px;
+            }
             .card {
                 -fx-background-color: #2c2c2c;
                 -fx-background-radius: 8px;

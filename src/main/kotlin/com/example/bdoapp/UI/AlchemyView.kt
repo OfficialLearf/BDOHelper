@@ -27,17 +27,17 @@ class AlchemyView(private val navigation: NavigationManager) {
         val root = BorderPane()
         root.styleClass.add("main-container")
 
-        // Header
+
         val header = createHeader()
         root.top = header
 
-        // Main content
+
         val content = createMainContent()
         root.center = content
 
         return root
     }
-    // Add this to both CookingView.kt and AlchemyView.kt
+
     private fun getIconImageView(itemName: String): ImageView {
         return ImageView().apply {
             fitWidth = 40.0
@@ -45,8 +45,7 @@ class AlchemyView(private val navigation: NavigationManager) {
             isPreserveRatio = true
 
             try {
-                val safeFileName = itemName.replace(Regex("[^a-zA-Z0-9_\\- ]"), "").replace(" ", "_")
-                // Try common image extensions
+                val safeFileName = itemName.replace(Regex("[^a-zA-Z0-9_\\- ']"), "").replace(" ", "_")
                 val extensions = listOf("png", "jpg", "jpeg", "gif")
                 var loaded = false
 
@@ -62,11 +61,11 @@ class AlchemyView(private val navigation: NavigationManager) {
                 }
 
                 if (!loaded) {
-                    // Fallback to placeholder
+
                     style = "-fx-background-color: #e74c3c; -fx-background-radius: 6px;"
                 }
             } catch (e: Exception) {
-                // Use colored placeholder
+
                 style = "-fx-background-color: #e74c3c; -fx-background-radius: 6px;"
             }
         }
@@ -77,7 +76,7 @@ class AlchemyView(private val navigation: NavigationManager) {
         header.alignment = Pos.CENTER_LEFT
         header.style = "-fx-background-color: #242424; -fx-border-color: #333333; -fx-border-width: 0 0 2 0;"
 
-        val titleLabel = Label("⚗️ Alchemy Calculator").apply {
+        val titleLabel = Label("⚗ Alchemy Calculator").apply {
             styleClass.add("title-label")
         }
 
@@ -98,11 +97,9 @@ class AlchemyView(private val navigation: NavigationManager) {
         val mainContent = HBox(20.0)
         mainContent.padding = Insets(20.0)
 
-        // Left side - Recipe list
         val leftSide = createRecipeListPanel()
         HBox.setHgrow(leftSide, Priority.SOMETIMES)
 
-        // Right side - Recipe details
         val rightSide = createRecipeDetailsPanel()
         HBox.setHgrow(rightSide, Priority.ALWAYS)
 
@@ -130,7 +127,6 @@ class AlchemyView(private val navigation: NavigationManager) {
             items = FXCollections.observableArrayList(allRecipes.map { it.name })
             VBox.setVgrow(this, Priority.ALWAYS)
 
-            // Custom cell factory to show icons
             setCellFactory {
                 object : ListCell<String>() {
                     override fun updateItem(item: String?, empty: Boolean) {
@@ -162,7 +158,6 @@ class AlchemyView(private val navigation: NavigationManager) {
             styleClass.add("label-text")
         }
 
-        // Search functionality
         searchField.textProperty().addListener { _, _, newValue ->
             if (newValue.isBlank()) {
                 recipeListView.items = FXCollections.observableArrayList(allRecipes.map { it.name })
@@ -175,7 +170,6 @@ class AlchemyView(private val navigation: NavigationManager) {
             countLabel.text = "${recipeListView.items.size} recipes found"
         }
 
-        // Connect selection to details display
         recipeListView.selectionModel.selectedItemProperty().addListener { _, _, newValue ->
             if (newValue != null) {
                 displayRecipeDetails(newValue, resultArea)
@@ -208,29 +202,16 @@ class AlchemyView(private val navigation: NavigationManager) {
             styleClass.add("text-field")
             prefWidth = 80.0
             textProperty().addListener { _, _, newValue ->
-                // Only allow numbers
                 if (!newValue.matches(Regex("\\d*"))) {
                     text = newValue.replace(Regex("[^\\d]"), "")
                 }
-                // Update details when multiplier changes
                 val selectedRecipe = recipeListView.selectionModel.selectedItem
                 if (selectedRecipe != null) {
                     displayRecipeDetails(selectedRecipe, resultArea)
                 }
             }
         }
-
-        val calculateButton = Button("Calculate").apply {
-            styleClass.add("btn-primary")
-            setOnAction {
-                val selectedRecipe = recipeListView.selectionModel.selectedItem
-                if (selectedRecipe != null) {
-                    displayRecipeDetails(selectedRecipe, resultArea)
-                }
-            }
-        }
-
-        headerBox.children.addAll(titleLabel, multiplierLabel, multiplierField, calculateButton)
+        headerBox.children.addAll(titleLabel, multiplierLabel, multiplierField)
 
         resultArea = TextArea().apply {
             styleClass.add("text-area")
@@ -251,7 +232,6 @@ class AlchemyView(private val navigation: NavigationManager) {
                 return
             }
 
-            // Get multiplier value
             val multiplier = multiplierField.text.toIntOrNull() ?: 1
             val safeMultiplier = if (multiplier < 1) 1 else multiplier
 
@@ -265,14 +245,14 @@ class AlchemyView(private val navigation: NavigationManager) {
             }
             sb.appendLine("═══════════════════════════════════════\n")
 
-            sb.appendLine("📋 DIRECT INGREDIENTS:")
+            sb.appendLine("DIRECT INGREDIENTS:")
             sb.appendLine("───────────────────────────────────────")
             recipe.ingredients.forEach { (ingredientName, amount) ->
                 val totalAmount = amount * safeMultiplier
                 sb.appendLine("  • ${totalAmount}x $ingredientName")
             }
 
-            sb.appendLine("\n📦 TOTAL MATERIALS NEEDED:")
+            sb.appendLine("\nTOTAL MATERIALS NEEDED:")
             sb.appendLine("───────────────────────────────────────")
             sb.appendLine("(Including all sub-recipe ingredients)\n")
             totalIngredients.toSortedMap().forEach { (ingredientName, totalAmount) ->
@@ -284,7 +264,7 @@ class AlchemyView(private val navigation: NavigationManager) {
 
             resultArea.text = sb.toString()
         } catch (e: Exception) {
-            resultArea.text = "❌ Error loading recipe: ${e.message}"
+            resultArea.text = "Error loading recipe: ${e.message}"
         }
     }
 }

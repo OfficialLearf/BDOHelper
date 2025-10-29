@@ -26,11 +26,9 @@ class CookingView(private val navigation: NavigationManager) {
         val root = BorderPane()
         root.styleClass.add("main-container")
 
-        // Header
         val header = createHeader()
         root.top = header
 
-        // Main content
         val content = createMainContent()
         root.center = content
 
@@ -64,11 +62,9 @@ class CookingView(private val navigation: NavigationManager) {
         val mainContent = HBox(20.0)
         mainContent.padding = Insets(20.0)
 
-        // Left side - Recipe list
         val leftSide = createRecipeListPanel()
         HBox.setHgrow(leftSide, Priority.SOMETIMES)
 
-        // Right side - Recipe details
         val rightSide = createRecipeDetailsPanel()
         HBox.setHgrow(rightSide, Priority.ALWAYS)
 
@@ -96,7 +92,6 @@ class CookingView(private val navigation: NavigationManager) {
             items = FXCollections.observableArrayList(allRecipes.map { it.name })
             VBox.setVgrow(this, Priority.ALWAYS)
 
-            // Custom cell factory to show icons
             setCellFactory {
                 object : ListCell<String>() {
                     override fun updateItem(item: String?, empty: Boolean) {
@@ -128,7 +123,6 @@ class CookingView(private val navigation: NavigationManager) {
             styleClass.add("label-text")
         }
 
-        // Search functionality
         searchField.textProperty().addListener { _, _, newValue ->
             if (newValue.isBlank()) {
                 recipeListView.items = FXCollections.observableArrayList(allRecipes.map { it.name })
@@ -141,7 +135,6 @@ class CookingView(private val navigation: NavigationManager) {
             countLabel.text = "${recipeListView.items.size} recipes found"
         }
 
-        // Connect selection to details display
         recipeListView.selectionModel.selectedItemProperty().addListener { _, _, newValue ->
             if (newValue != null) {
                 displayRecipeDetails(newValue, resultArea)
@@ -151,7 +144,7 @@ class CookingView(private val navigation: NavigationManager) {
         panel.children.addAll(titleLabel, searchField, recipeListView, countLabel)
         return panel
     }
-    // Add this to both CookingView.kt and AlchemyView.kt
+
     private fun getIconImageView(itemName: String): ImageView {
         return ImageView().apply {
             fitWidth = 40.0
@@ -159,8 +152,8 @@ class CookingView(private val navigation: NavigationManager) {
             isPreserveRatio = true
 
             try {
-                val safeFileName = itemName.replace(Regex("[^a-zA-Z0-9_\\- ]"), "").replace(" ", "_")
-                // Try common image extensions
+                val safeFileName = itemName.replace(Regex("[^a-zA-Z0-9_\\- ']"), "").replace(" ", "_")
+
                 val extensions = listOf("png", "jpg", "jpeg", "gif")
                 var loaded = false
 
@@ -176,11 +169,11 @@ class CookingView(private val navigation: NavigationManager) {
                 }
 
                 if (!loaded) {
-                    // Fallback to placeholder
+
                     style = "-fx-background-color: #e74c3c; -fx-background-radius: 6px;"
                 }
             } catch (e: Exception) {
-                // Use colored placeholder
+
                 style = "-fx-background-color: #e74c3c; -fx-background-radius: 6px;"
             }
         }
@@ -208,11 +201,11 @@ class CookingView(private val navigation: NavigationManager) {
             styleClass.add("text-field")
             prefWidth = 80.0
             textProperty().addListener { _, _, newValue ->
-                // Only allow numbers
+
                 if (!newValue.matches(Regex("\\d*"))) {
                     text = newValue.replace(Regex("[^\\d]"), "")
                 }
-                // Update details when multiplier changes
+
                 val selectedRecipe = recipeListView.selectionModel.selectedItem
                 if (selectedRecipe != null) {
                     displayRecipeDetails(selectedRecipe, resultArea)
@@ -251,7 +244,7 @@ class CookingView(private val navigation: NavigationManager) {
                 return
             }
 
-            // Get multiplier value
+
             val multiplier = multiplierField.text.toIntOrNull() ?: 1
             val safeMultiplier = if (multiplier < 1) 1 else multiplier
 
