@@ -24,7 +24,7 @@ object NotificationService {
     private var webHookURL: String? = null
 
     fun start() {
-        this.webHookURL = mainPrefs.get(WEBHOOK_URL_KEY, null)
+        this.webHookURL = mainPrefs[WEBHOOK_URL_KEY, null]
         println("NotificationService started. Webhook URL: $webHookURL")
         Timer("BossCheckTimer", true).schedule(timerTask {
             checkForUpcomingBosses()
@@ -37,8 +37,8 @@ object NotificationService {
         }
 
         val now = LocalDateTime.now()
-        val notificationWindowStart = now.plusMinutes(9)
-        val notificationWindowEnd = now.plusMinutes(10)
+        val notificationWindowStart = now
+        val notificationWindowEnd = now.plusMinutes(1)
 
         bossSchedule.forEach { spawn ->
             val spawnDateTime = getNextSpawnDateTime(spawn)
@@ -65,11 +65,11 @@ object NotificationService {
         val minutesUntil = ChronoUnit.MINUTES.between(LocalDateTime.now(), spawnDateTime) + 1
 
         val payload = DiscordWebhookPayload(
-            username = "BDO Boss Alerter",
+            username = "BDO Boss Alert",
             embeds = listOf(
                 DiscordEmbed(
                     title = "🔥 ${spawn.bossName} Spawning Soon!",
-                    description = "Spawns in approximately **$minutesUntil minutes**.",
+                    description = "Spawns in **$minutesUntil minutes**.",
                     color = 15158332
                 )
             )

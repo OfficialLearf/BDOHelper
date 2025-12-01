@@ -4,7 +4,7 @@ import com.example.bdoapp.Model.Recipe
 import org.jsoup.Jsoup
 import java.io.File
 import java.io.FileOutputStream
-import java.net.URL
+import java.net.URI
 
 class IconScraper {
     private val baseUrl = "https://incendar.com"
@@ -143,9 +143,8 @@ class IconScraper {
                 println("✓ Already cached: $itemName")
                 return localPath
             }
-
             println("⬇ Downloading: $itemName")
-            URL(iconUrl).openStream().use { input ->
+            URI(iconUrl).toURL().openStream().use { input ->
                 FileOutputStream(file).use { output ->
                     input.copyTo(output)
                 }

@@ -9,12 +9,6 @@ import javafx.scene.layout.*
 import javafx.geometry.Insets
 import javafx.geometry.Pos
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.OkHttpClient
-import okhttp3.Request
-import okhttp3.RequestBody.Companion.toRequestBody
 import java.time.DayOfWeek
 import java.time.LocalDate
 import java.time.LocalDateTime
@@ -38,7 +32,7 @@ class BossTimerView(private val navigation: NavigationManager) {
 
     init {
         prefs = Preferences.userRoot().node(PREFS_NODE_PATH)
-        webHookURL = prefs.get(WEBHOOK_URL_KEY, null)
+        webHookURL = prefs[WEBHOOK_URL_KEY,null]
         checkForWeeklyReset()
         println("Loaded Webhook URL: $webHookURL")
     }
@@ -106,18 +100,19 @@ class BossTimerView(private val navigation: NavigationManager) {
         return header
     }
 
+    private val STYLESELECTED = "-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6px; -fx-cursor: hand;"
+    private val STYLEDEFAULT = "-fx-background-color: #2c2c2c; -fx-text-fill: #bdc3c7; -fx-background-radius: 6px; -fx-cursor: hand; -fx-border-color: #3a3a3a; -fx-border-width: 1px; -fx-border-radius: 6px;"
+
     private fun createDaySelector(): HBox {
-        val container = HBox(10.0)
-        container.alignment = Pos.CENTER
-        container.padding = Insets(10.0, 0.0, 0.0, 0.0)
+        val container = HBox(10.0).apply {
+            alignment = Pos.CENTER
+            padding = Insets(10.0, 0.0, 0.0, 0.0)
+        }
 
         val days = listOf(
-            DayOfWeek.MONDAY to "MON",
-            DayOfWeek.TUESDAY to "TUE",
-            DayOfWeek.WEDNESDAY to "WED",
-            DayOfWeek.THURSDAY to "THU",
-            DayOfWeek.FRIDAY to "FRI",
-            DayOfWeek.SATURDAY to "SAT",
+            DayOfWeek.MONDAY to "MON", DayOfWeek.TUESDAY to "TUE",
+            DayOfWeek.WEDNESDAY to "WED", DayOfWeek.THURSDAY to "THU",
+            DayOfWeek.FRIDAY to "FRI", DayOfWeek.SATURDAY to "SAT",
             DayOfWeek.SUNDAY to "SUN"
         )
 
@@ -125,36 +120,33 @@ class BossTimerView(private val navigation: NavigationManager) {
             val button = Button(label).apply {
                 prefWidth = 70.0
                 prefHeight = 40.0
-
-                if (day == selectedDay) {
-                    style =
-                        "-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6px; -fx-cursor: hand;"
-                } else {
-                    style =
-                        "-fx-background-color: #2c2c2c; -fx-text-fill: #bdc3c7; -fx-background-radius: 6px; -fx-cursor: hand; -fx-border-color: #3a3a3a; -fx-border-width: 1px; -fx-border-radius: 6px;"
-                }
-
-                setOnAction {
-                    selectedDay = day
-                    updateBossList()
-                    container.children.forEach { node ->
-                        if (node is Button) {
-                            val btnDay = days.find { it.second == node.text }?.first
-                            if (btnDay == selectedDay) {
-                                node.style =
-                                    "-fx-background-color: #e74c3c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6px; -fx-cursor: hand;"
-                            } else {
-                                node.style =
-                                    "-fx-background-color: #2c2c2c; -fx-text-fill: #bdc3c7; -fx-background-radius: 6px; -fx-cursor: hand; -fx-border-color: #3a3a3a; -fx-border-width: 1px; -fx-border-radius: 6px;"
-                            }
-                        }
-                    }
-                }
+                userData = day
             }
+
+            button.setOnAction {
+                selectedDay = day
+                updateBossList()
+                updateButtonStyles(container)
+            }
+
             container.children.add(button)
         }
 
+        // Set initial styles
+        updateButtonStyles(container)
+
         return container
+    }
+
+    private fun updateButtonStyles(container: HBox) {
+        container.children.filterIsInstance<Button>().forEach { button ->
+            val buttonDay = button.userData as? DayOfWeek
+            button.style = if (buttonDay == selectedDay) {
+                STYLESELECTED
+            } else {
+                STYLEDEFAULT
+            }
+        }
     }
 
 
@@ -301,9 +293,6 @@ class BossTimerView(private val navigation: NavigationManager) {
         bossListContainer.children.clear()
 
         val todaySpawns = bossSchedule.filter { it.day == selectedDay }
-        val now = LocalDateTime.now()
-
-
         val sortedSpawns = todaySpawns.sortedBy { it.time }
 
         if (sortedSpawns.isEmpty()) {

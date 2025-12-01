@@ -7,6 +7,7 @@ import javafx.scene.Scene
 import com.example.bdoapp.UI.MainMenuView
 import com.example.bdoapp.UI.CookingView
 import com.example.bdoapp.UI.BossTimerView
+import com.example.bdoapp.UI.EnhancementView
 
 class NavigationManager(private val primaryStage: Stage) {
 
@@ -42,6 +43,12 @@ class NavigationManager(private val primaryStage: Stage) {
     fun showBossTimer() {
         val bossTimerView = BossTimerView(this)
         val scene = Scene(bossTimerView.createContent(), 1200.0, 700.0)
+        applyStylesheet(scene)
+        primaryStage.scene = scene
+    }
+    fun showEnhancementCalculator() {
+        val enhancementView = EnhancementView(this)
+        val scene = Scene(enhancementView.createContent(), 1200.0, 700.0)
         applyStylesheet(scene)
         primaryStage.scene = scene
     }

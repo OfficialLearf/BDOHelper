@@ -8,9 +8,8 @@ data class BossSpawn(
     val bossName: String
 )
 
-
+//BOSS SPAWN TIMETABLE (IT NEVER CHANGES BUT COULD BE BUGGY DURING DST TIME CHANGE FOR A COUPLE OF DAYS [-+1 hour])
 val bossSchedule = listOf(
-    // Monday
     BossSpawn(DayOfWeek.MONDAY, LocalTime.of(0, 15), "Kutum"),
     BossSpawn(DayOfWeek.MONDAY, LocalTime.of(0, 15), "Karanda"),
     BossSpawn(DayOfWeek.MONDAY, LocalTime.of(0, 15), "Uturi"),
@@ -30,7 +29,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.MONDAY, LocalTime.of(22, 15), "Uturi"),
     BossSpawn(DayOfWeek.MONDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Tuesday
     BossSpawn(DayOfWeek.TUESDAY, LocalTime.of(0, 15), "Karanda"),
     BossSpawn(DayOfWeek.TUESDAY, LocalTime.of(0, 15), "Golden Pig King"),
     BossSpawn(DayOfWeek.TUESDAY, LocalTime.of(2, 0), "Kutum"),
@@ -47,7 +45,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.TUESDAY, LocalTime.of(22, 15), "Muraka"),
     BossSpawn(DayOfWeek.TUESDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Wednesday
     BossSpawn(DayOfWeek.WEDNESDAY, LocalTime.of(0, 15), "Kzarka"),
     BossSpawn(DayOfWeek.WEDNESDAY, LocalTime.of(0, 15), "Kutum"),
     BossSpawn(DayOfWeek.WEDNESDAY, LocalTime.of(0, 15), "Bulgasal"),
@@ -65,7 +62,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.WEDNESDAY, LocalTime.of(22, 15), "Sangoon"),
     BossSpawn(DayOfWeek.WEDNESDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Thursday
     BossSpawn(DayOfWeek.THURSDAY, LocalTime.of(0, 15), "Nouver"),
     BossSpawn(DayOfWeek.THURSDAY, LocalTime.of(0, 15), "Bulgasal"),
     BossSpawn(DayOfWeek.THURSDAY, LocalTime.of(2, 0), "Kutum"),
@@ -81,7 +77,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.THURSDAY, LocalTime.of(22, 15), "Muraka"),
     BossSpawn(DayOfWeek.THURSDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Friday
     BossSpawn(DayOfWeek.FRIDAY, LocalTime.of(0, 15), "Karanda"),
     BossSpawn(DayOfWeek.FRIDAY, LocalTime.of(0, 15), "Sangoon"),
     BossSpawn(DayOfWeek.FRIDAY, LocalTime.of(2, 0), "Nouver"),
@@ -99,7 +94,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.FRIDAY, LocalTime.of(22, 15), "Bulgasal"),
     BossSpawn(DayOfWeek.FRIDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Saturday
     BossSpawn(DayOfWeek.SATURDAY, LocalTime.of(0, 15), "Karanda"),
     BossSpawn(DayOfWeek.SATURDAY, LocalTime.of(0, 15), "Golden Pig King"),
     BossSpawn(DayOfWeek.SATURDAY, LocalTime.of(0, 15), "Sangoon"),
@@ -117,7 +111,6 @@ val bossSchedule = listOf(
     BossSpawn(DayOfWeek.SATURDAY, LocalTime.of(19, 0), "Sangoon"),
     BossSpawn(DayOfWeek.SATURDAY, LocalTime.of(23, 15), "Garmoth"),
 
-    // Sunday
     BossSpawn(DayOfWeek.SUNDAY, LocalTime.of(0, 15), "Nouver"),
     BossSpawn(DayOfWeek.SUNDAY, LocalTime.of(0, 15), "Kutum"),
     BossSpawn(DayOfWeek.SUNDAY, LocalTime.of(0, 15), "Golden Pig King"),

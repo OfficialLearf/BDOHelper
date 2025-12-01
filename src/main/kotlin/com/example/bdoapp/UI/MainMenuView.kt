@@ -4,7 +4,6 @@ import javafx.scene.control.Button
 import javafx.scene.control.Label
 import javafx.scene.layout.VBox
 import javafx.scene.layout.Region
-import javafx.scene.layout.Priority
 import javafx.geometry.Pos
 import javafx.geometry.Insets
 import com.example.bdoapp.Util.NavigationManager
@@ -30,10 +29,6 @@ class MainMenuView(private val navigation: NavigationManager) {
                 prefHeight = 20.0
             }
 
-            val activeLabel = Label("Active Features").apply {
-                styleClass.add("section-title")
-            }
-
             val cookingButton = createMenuButton("🍳 Cooking Calculator", "Calculate recipes and ingredients") {
                 navigation.showCookingCalculator()
             }
@@ -44,22 +39,9 @@ class MainMenuView(private val navigation: NavigationManager) {
             val bossTimerButton = createMenuButton("⚔ Boss Timers", "Never miss a boss spawn") {
                 navigation.showBossTimer()
             }
-
-            val spacer2 = Region().apply {
-                prefHeight = 20.0
-            }
-
-            val comingSoonLabel = Label("Coming Soon").apply {
-                styleClass.add("section-title")
-            }
-
-            val gatheringButton = createMenuButton("🌾 Gathering Helper", "Track gathering resources", true)
-
-            val enhancementButton = createMenuButton("✨ Enhancement Calculator", "Calculate enhancement costs", true)
-            val nodeMapButton = createMenuButton("🗺️ Node Map", "Manage your worker empire", true)
-
-            val bottomSpacer = Region().apply {
-                VBox.setVgrow(this, Priority.ALWAYS)
+            val enhancementButton = createMenuButton("✨ Enhancement Calculator", "Calculate enhancement costs")
+            {
+                navigation.showEnhancementCalculator()
             }
 
             val exitButton = Button("Exit Application").apply {
@@ -75,16 +57,10 @@ class MainMenuView(private val navigation: NavigationManager) {
                 titleLabel,
                 subtitleLabel,
                 spacer1,
-                activeLabel,
                 cookingButton,
                 alchemyButton,
-                spacer2,
-                comingSoonLabel,
-                gatheringButton,
                 bossTimerButton,
                 enhancementButton,
-                nodeMapButton,
-                bottomSpacer,
                 exitButton
             )
         }
@@ -109,15 +85,7 @@ class MainMenuView(private val navigation: NavigationManager) {
                 style = "-fx-font-size: 13px; -fx-text-fill: #95a5a6;"
             }
 
-            val statusLabel = Label(if (disabled) "COMING SOON" else "AVAILABLE").apply {
-                style = if (disabled) {
-                    "-fx-font-size: 11px; -fx-text-fill: #f39c12; -fx-font-weight: bold;"
-                } else {
-                    "-fx-font-size: 11px; -fx-text-fill: #27ae60; -fx-font-weight: bold;"
-                }
-            }
-
-            children.addAll(titleLabel, descLabel, statusLabel)
+            children.addAll(titleLabel, descLabel)
 
             if (!disabled) {
                 setOnMouseClicked { action() }

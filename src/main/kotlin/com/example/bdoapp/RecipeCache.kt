@@ -1,14 +1,13 @@
 package com.example.bdoapp.Service
 
 import com.example.bdoapp.Model.Recipe
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
 
 object RecipeCache {
     private const val CACHE_FILE = "recipes_cache.json"
-    private val jsonFormat = Json { prettyPrint = true } // Makes the JSON readable
+    private val jsonFormat = Json { prettyPrint = true }
 
     fun saveRecipes(recipes: List<Recipe>) {
         try {
