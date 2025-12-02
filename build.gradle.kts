@@ -5,6 +5,7 @@ plugins {
     kotlin("plugin.serialization") version "1.9.0"
     id("org.jlleitschuh.gradle.ktlint") version "12.1.0"
     id("io.gitlab.arturbosch.detekt") version "1.23.5"
+    id("org.beryx.runtime") version "1.13.1"
 }
 
 repositories {
@@ -48,4 +49,33 @@ javafx {
     modules = listOf("javafx.controls", "javafx.fxml")
 }
 
-application.mainClass = "com.example.MainKt"
+application {
+    mainClass.set("com.example.bdoapp.LauncherKt")
+}
+
+runtime {
+    options.set(listOf("--strip-debug", "--compress", "zip-6", "--no-header-files", "--no-man-pages"))
+
+    modules.set(listOf(
+        "java.instrument",
+        "java.scripting",
+        "jdk.unsupported",
+        "java.naming",
+        "java.desktop",
+        "java.management",
+        "java.sql",
+        "jdk.crypto.ec",
+        "jdk.charsets"
+    ))
+
+    launcher {
+        noConsole = false
+    }
+
+    jpackage {
+        imageName = "BDOApp"
+
+        installerType = "app-image"
+
+    }
+}

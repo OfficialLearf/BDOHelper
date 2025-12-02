@@ -22,13 +22,14 @@ object NotificationService {
     private const val WEBHOOK_URL_KEY = "discord_webhook_url"
     private val sentNotifications = mutableSetOf<String>()
     private var webHookURL: String? = null
+    private val alertTriggers = listOf(9L, 4L, 1L, 0L)
 
     fun start() {
         this.webHookURL = mainPrefs[WEBHOOK_URL_KEY, null]
         println("NotificationService started. Webhook URL: $webHookURL")
         Timer("BossCheckTimer", true).schedule(timerTask {
             checkForUpcomingBosses()
-        }, 5000L, 60_000L) // Start after 5s, then repeat every 60s
+        }, 5000L, 30_000L)
     }
 
     private fun checkForUpcomingBosses() {
@@ -37,40 +38,54 @@ object NotificationService {
         }
 
         val now = LocalDateTime.now()
-        val notificationWindowStart = now
-        val notificationWindowEnd = now.plusMinutes(1)
 
         bossSchedule.forEach { spawn ->
             val spawnDateTime = getNextSpawnDateTime(spawn)
 
-            if (spawnDateTime.isAfter(notificationWindowStart) && spawnDateTime.isBefore(notificationWindowEnd)) {
+            val minutesRaw = ChronoUnit.MINUTES.between(now, spawnDateTime)
 
-                val isEnabled = notificationPrefs.getBoolean(spawn.bossName, true)
-                val notificationId = "${spawn.day}-${spawn.time}-${spawn.bossName}"
+            for (triggerMinutesRaw in alertTriggers) {
+                if (minutesRaw == triggerMinutesRaw) {
 
-                if (isEnabled && !sentNotifications.contains(notificationId)) {
-                    println("✅ Sending notification for ${spawn.bossName}")
-                    sendBossNotification(spawn, spawnDateTime)
-                    sentNotifications.add(notificationId)
+                    val minutesUntilDisplay = minutesRaw + 1
+
+                    val notificationId = "${spawn.day}-${spawn.time}-${spawn.bossName}-${triggerMinutesRaw}m"
+
+                    val isEnabled = notificationPrefs.getBoolean(spawn.bossName, true)
+
+                    if (isEnabled && !sentNotifications.contains(notificationId)) {
+                        println("✅ Sending ${minutesUntilDisplay}m notification for ${spawn.bossName}")
+                        sendBossNotification(spawn, minutesUntilDisplay)
+                        sentNotifications.add(notificationId)
+                    }
                 }
             }
         }
-
         if (now.minute == 0) {
             sentNotifications.clear()
         }
     }
 
-    private fun sendBossNotification(spawn: BossSpawn, spawnDateTime: LocalDateTime) {
-        val minutesUntil = ChronoUnit.MINUTES.between(LocalDateTime.now(), spawnDateTime) + 1
+    private fun sendBossNotification(spawn: BossSpawn, minutesUntilDisplay: Long) {
+
+        val title: String
+        var description = ""
+
+        if (minutesUntilDisplay > 0) {
+            title = "${spawn.bossName} Spawning Soon!"
+            description = "Spawns in **$minutesUntilDisplay minutes**."
+        } else {
+            title = "${spawn.bossName} HAS SPAWNED!"
+        }
+
 
         val payload = DiscordWebhookPayload(
             username = "BDO Boss Alert",
             embeds = listOf(
                 DiscordEmbed(
-                    title = "🔥 ${spawn.bossName} Spawning Soon!",
-                    description = "Spawns in **$minutesUntil minutes**.",
-                    color = 15158332
+                    title = title,
+                    description = description,
+                    color = if (minutesUntilDisplay > 0) 15158332 else 3066993
                 )
             )
         )

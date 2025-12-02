@@ -118,7 +118,7 @@ class BossTimerView(private val navigation: NavigationManager) {
 
         days.forEach { (day, label) ->
             val button = Button(label).apply {
-                prefWidth = 70.0
+                prefWidth = 100.0
                 prefHeight = 40.0
                 userData = day
             }
@@ -420,7 +420,7 @@ class BossTimerView(private val navigation: NavigationManager) {
         dialog.applyCustomStyling()
 
         dialog.showAndWait().ifPresent { url ->
-            if (url.startsWith("https://discord.com/api/webhooks/")) {
+            if (url.startsWith("https://discord.com/api/webhooks/") || url.isEmpty()) {
                 prefs.put(WEBHOOK_URL_KEY, url)
                 prefs.flush()
                 this.webHookURL = url

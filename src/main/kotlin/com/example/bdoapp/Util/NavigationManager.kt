@@ -1,55 +1,58 @@
 package com.example.bdoapp.Util
 
 import com.example.bdoapp.UI.AlchemyView
-import com.example.bdoapp.UI.AppStyles
 import javafx.stage.Stage
 import javafx.scene.Scene
+import javafx.scene.Parent
 import com.example.bdoapp.UI.MainMenuView
 import com.example.bdoapp.UI.CookingView
 import com.example.bdoapp.UI.BossTimerView
 import com.example.bdoapp.UI.EnhancementView
 
 class NavigationManager(private val primaryStage: Stage) {
-
     private fun applyStylesheet(scene: Scene) {
-        scene.stylesheets.add(
-            "data:text/css;base64," +
-                    java.util.Base64.getEncoder().encodeToString(
-                        AppStyles.getStylesheet().toByteArray()
-                    )
-        )
+        val dialogStyle = javaClass.getResource("/dialog-style.css")?.toExternalForm()
+            if (dialogStyle != null) {
+                scene.stylesheets.add(dialogStyle)
+            } else {
+                println("css not found")
+            }
+        }
+
+    private fun updateScene(content: Parent) {
+        val currentScene = primaryStage.scene
+
+        if (currentScene == null) {
+            val newScene = Scene(content, 1200.0,800.0)
+            applyStylesheet(newScene)
+            primaryStage.scene = newScene
+        } else {
+            currentScene.root = content
+        }
     }
 
     fun showMainMenu() {
-        val mainMenuView = MainMenuView(this)
-        val scene = Scene(mainMenuView.createContent(), 1200.0, 700.0)
-        applyStylesheet(scene)
-        primaryStage.scene = scene
+        val view = MainMenuView(this)
+        updateScene(view.createContent())
     }
 
     fun showCookingCalculator() {
-        val cookingView = CookingView(this)
-        val scene = Scene(cookingView.createContent(), 1200.0, 700.0)
-        applyStylesheet(scene)
-        primaryStage.scene = scene
+        val view = CookingView(this)
+        updateScene(view.createContent())
     }
 
     fun showAlchemyCalculator() {
-        val alchemyView = AlchemyView(this)
-        val scene = Scene(alchemyView.createContent(), 1200.0, 700.0)
-        applyStylesheet(scene)
-        primaryStage.scene = scene
+        val view = AlchemyView(this)
+        updateScene(view.createContent())
     }
+
     fun showBossTimer() {
-        val bossTimerView = BossTimerView(this)
-        val scene = Scene(bossTimerView.createContent(), 1200.0, 700.0)
-        applyStylesheet(scene)
-        primaryStage.scene = scene
+        val view = BossTimerView(this)
+        updateScene(view.createContent())
     }
+
     fun showEnhancementCalculator() {
-        val enhancementView = EnhancementView(this)
-        val scene = Scene(enhancementView.createContent(), 1200.0, 700.0)
-        applyStylesheet(scene)
-        primaryStage.scene = scene
+        val view = EnhancementView(this)
+        updateScene(view.createContent())
     }
 }
