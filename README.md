@@ -5,7 +5,11 @@ Black Desert Online Helper
 Personal project
 
 Implemented:
--Alchemy recipes, Cooking recipes and a Boss Timer
+-Alchemy recipes
+-Cooking recipes
+-Enhancement Calculator
+-Boss Timer
 
 To Do:
--Enhancement Calculator, Node Map
+-Node Map
+-Gathering Helper
