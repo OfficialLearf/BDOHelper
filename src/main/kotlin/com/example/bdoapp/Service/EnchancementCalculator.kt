@@ -22,7 +22,6 @@ class EnhancementCalculator {
     suspend fun calculate(
         itemType: String,
         item: String,
-        currentLevel: String,
         targetLevel: String,
         failstacks: Int,
         useCrons: Boolean
@@ -98,7 +97,7 @@ class EnhancementCalculator {
         "blackstar" to mapOf(
             "TRI" to 100, "TET" to 591, "PEN" to 3670
         ),
-        "manos" to mapOf(   // külön kezeled majd clothes-re!
+        "manos" to mapOf(
             "DUO" to 80, "TRI" to 275, "TET" to 1100, "PEN" to 2200
         ),
         "manos_clothes" to mapOf(
